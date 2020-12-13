@@ -29,7 +29,6 @@
 - 更换了主题 [Yun](https://yun.yunyoujun.cn/) 
 - Thanks
     - 非常感谢[云游君](https://www.yunyoujun.cn/) , 详细的文档和在群里的指导 . 请他喝了冰阔落 .
-    - 
 </details>
 
 <details>
