@@ -1,9 +1,6 @@
 ---
 title: Welcome Home! Chtholly!
 date: 2099-12-31 23:59:59
-categories: 
-	- about
-tags: 
 ---
 
 关于我想瞎折腾然后花一堆时间搭建博客这档事。
