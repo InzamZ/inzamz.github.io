@@ -1,5 +1,10 @@
-
-# About Site
+---
+title: Welcome Home! Chtholly!
+date: 2099-12-31 23:59:59
+categories: 
+	- about
+tags: 
+---
 
 关于我想瞎折腾然后花一堆时间搭建博客这档事。
 从小就有一个想法，搞一个自己的网站。然后就是在学 OI 时用的博客园，到了大学，我想自己搭一个了。所以，从今天起，在这里记录这个BLOG的点滴。~~到我还有钱续费~~。
@@ -10,6 +15,10 @@
 
 <details open>
     <summary>2020年12月</summary>
+
+## 2020-12-13
+- 申请了企业微信和腾讯企业邮 , 开始使用 me@inzamz.top 作为邮箱地址
+- 使用A记录将inzamz.top重定向到 www.inzamz.top 解决了CNAME与MX冲突的问题
 
 ## 2020-12-10
 - 配置了公式渲染插件 , 只要安装相关插件就行 , 然后在主题文件中把katex改为true即可
@@ -29,11 +38,12 @@
 - 更换了主题 [Yun](https://yun.yunyoujun.cn/) 
 - Thanks
     - 非常感谢[云游君](https://www.yunyoujun.cn/) , 详细的文档和在群里的指导 . 请他喝了冰阔落 .
+    - 
 </details>
 
 <details>
     <summary>2020年10月~2020年11月</summary>
-    
+
 # 建站
 ## 2020-11-30
 
