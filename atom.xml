@@ -25,7 +25,7 @@
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;系统地学习一下思科网课中的网络课程 , 笔记记录一下 . &lt;/p&gt;
+&lt;p&gt;系统地学习一下思科网课中的网络课程 , 笔记记录一下 .&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
@@ -46,8 +46,8 @@
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;这一篇不可能缺席的 . 巨人是多少人的青春 , 对于他的结局 , 总的来说是烂的 , 但至少是圆满的 . 对于我 , 很晚入宅 , 但是不可否定的是我也为了他疯过 . 我看了很多结局的解读 , 找了自己能接受的 , 但当作者需要其他人解读时 , 作品已经算失败了……&lt;/p&gt;
-&lt;p&gt;在最后 , 我还是抱着一丝丝希望 , MAPPA能最后把结局改了 , 还给我们一个完美的青春 . &lt;/p&gt;
+&lt;p&gt;这一篇不可能缺席的 . 巨人是多少人的青春 , 对于他的结局 , 总的来说是烂的 , 但至少是圆满的 . 对于我 , 很晚入宅 , 但是不可否定的是我也为了他疯过 . 我看了很多结局的解读 , 找了自己能接受的 , 但当作者需要其他人解读时 , 作品已经算失败了......&lt;/p&gt;
+&lt;p&gt;在最后 , 我还是抱着一丝丝希望 , MAPPA能最后把结局改了 , 还给我们一个完美的青春 .&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
@@ -67,7 +67,7 @@
     <updated>2021-06-27T15:51:53.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;男女主的感情表达得很好 , 世界观一般 , 剧情很可以 . 总体来说还是很可以的 . 按照我毒瘤的评分标准 , 7.5 分吧 . 和室友包场了 , 可悲的是 , 其他两对都是情侣 . &lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;男女主的感情表达得很好 , 世界观一般 , 剧情很可以 . 总体来说还是很可以的 . 按照我毒瘤的评分标准 , 7.5 分吧 . 和室友包场了 , 可悲的是 , 其他两对都是情侣 .&lt;/p&gt;</summary>
     
     
     
@@ -87,7 +87,7 @@
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;板子题并没有给出详细的讲解 , 讲了大致思路 , 以及对于某些细节上的处理 . 代码也是把板子部分去了 , 留下需要改的部分 . &lt;/p&gt;
+&lt;p&gt;板子题并没有给出详细的讲解 , 讲了大致思路 , 以及对于某些细节上的处理 . 代码也是把板子部分去了 , 留下需要改的部分 .&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
@@ -193,7 +193,7 @@
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;在高中只学过简单的背包问题，会写简单的状态转移方程。就自以为差不多（实际上就是在逃避现实），而最近刷了 ABC190 后，写了一道状压DP，才发现是时候练一下了。选择题目很杂 , 有些是学校的题目 , 没有题面 . 毕竟也没有人会看的吧 . &lt;/p&gt;
+&lt;p&gt;在高中只学过简单的背包问题，会写简单的状态转移方程。就自以为差不多（实际上就是在逃避现实），而最近刷了 ABC190 后，写了一道状压DP，才发现是时候练一下了。选择题目很杂 , 有些是学校的题目 , 没有题面 . 毕竟也没有人会看的吧 .&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;UPST2020&lt;/code&gt; : UESTC PreSummer Training 2020&lt;/li&gt;
 &lt;/ul&gt;
@@ -275,7 +275,7 @@
     <updated>2021-01-24T09:08:32.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;因为自己一直苦于水课以及其他的正课的复习，师兄的建议也只是停留在印象（毕竟时间太久都忘了），于是我打算考完后把感想写下来，造福后代？&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;因为自己一直苦于水课以及其他的正课的复习，师兄的建议也只是停留在印象（毕竟时间太久都忘了），于是我打算考完后把感想写下来，造福后代？</summary>
     
     
     
@@ -294,7 +294,7 @@
     <updated>2021-01-25T08:06:59.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;其实有时间打的，不过我懒，所以赛后打的。&lt;br&gt;        ABC的难度就是前几题暴力，后面还是挺有挑战性的，下次有机会一定打。而且时间太舒服了，晚上8点。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;其实有时间打的，不过我懒，所以赛后打的。 ABC的难度就是前几题暴力，后面还是挺有挑战性的，下次有机会一定打。而且时间太舒服了，晚上8点。&lt;/p&gt;</summary>
     
     
     
@@ -339,15 +339,17 @@
     <link href="http://www.inzamz.top/2021/Goodbye2020/"/>
     <id>http://www.inzamz.top/2021/Goodbye2020/</id>
     <published>2020-12-31T17:12:57.000Z</published>
-    <updated>2021-06-26T15:38:38.000Z</updated>
+    <updated>2021-07-05T07:46:10.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;至于真相，一定更在意料之外——自古皆然。  阿瑟·克拉克 《太空漫游：2001》&lt;/p&gt;
+&lt;p&gt;至于真相，一定更在意料之外——自古皆然。 阿瑟·克拉克 《太空漫游：2001》&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这一年确实经历了很多，感慨万千。就像上面这句话，然后先挖个坑，会填的。&lt;/p&gt;
 &lt;p&gt;毕竟作为中国人，真正的过年就是除夕夜嘛。所以总结放在除夕夜了。而且我有一个大胆的想法，今年试试守岁？&lt;del&gt;感觉可以。&lt;/del&gt; 因为不可抗力的因素，我怕守个岁这个年估计就要躺在床上了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://img.inzamz.top/expression/stop-abusing.jpg&quot; alt=&quot;stop-abusing&quot;&gt;&lt;/p&gt;</summary>
+&lt;figure&gt;
+&lt;img src=&quot;https://img.inzamz.top/expression/stop-abusing.jpg&quot; alt=&quot;stop-abusing&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;stop-abusing&lt;/figcaption&gt;
+&lt;/figure&gt;</summary>
     
     
     
@@ -366,7 +368,7 @@
     <updated>2021-06-26T15:37:38.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;基于 hexo 的博客比较麻烦 , 百度无法自动收录 , 所以需要自己操作 . 记录一下到时方便查阅 , 参考自博文 &lt;a href=&quot;https://blog.csdn.net/weixin_43662543/article/details/104647173&quot;&gt;https://blog.csdn.net/weixin_43662543/article/details/104647173&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;基于 hexo 的博客比较麻烦 , 百度无法自动收录 , 所以需要自己操作 . 记录一下到时方便查阅 , 参考自博文 https://blog.csdn.net/weixin_43662543/article/details/104647173&lt;/p&gt;</summary>
     
     
     
@@ -382,10 +384,10 @@
     <link href="http://www.inzamz.top/2020/lackingnumber/"/>
     <id>http://www.inzamz.top/2020/lackingnumber/</id>
     <published>2020-12-23T14:38:11.000Z</published>
-    <updated>2021-06-26T15:40:30.000Z</updated>
+    <updated>2021-07-05T07:27:58.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我在查找费马小定理的资料时 , 发现了这篇文章 . 我觉得很有趣 , 就学习一下 .&lt;br&gt;转载参考自 &lt;a href=&quot;https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html&quot;&gt;https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;我在查找费马小定理的资料时 , 发现了这篇文章 . 我觉得很有趣 , 就学习一下 . 转载参考自 https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html</summary>
     
     
     
@@ -405,9 +407,8 @@
     
     
     <summary type="html">&lt;p&gt;STL是什么东西 , 我自己手打一个不行吗 ?&lt;/p&gt;
-&lt;img src=&quot;https://img.inzamz.top/expression/zhen-xiang.gif&quot; alt=&quot;zhen-xiang&quot; div align=center/&gt; 
-
-&lt;p&gt;手打模板是什么东西 , STL真香 , yyds . &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.inzamz.top/expression/zhen-xiang.gif&quot; alt=&quot;zhen-xiang&quot; div align=center/&gt;&lt;/p&gt;
+&lt;p&gt;手打模板是什么东西 , STL真香 , yyds .&lt;/p&gt;
 &lt;p&gt;参考自百度百科.&lt;/p&gt;</summary>
     
     
@@ -424,10 +425,10 @@
     <link href="http://www.inzamz.top/2020/InverseElement/"/>
     <id>http://www.inzamz.top/2020/InverseElement/</id>
     <published>2020-12-19T15:33:25.000Z</published>
-    <updated>2021-01-29T13:59:52.000Z</updated>
+    <updated>2021-07-05T07:18:58.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;数论大数据经常会出现取模运算 , 但是除法很难没法同余 , 所以这里要使用费马小定理 . &lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;数论大数据经常会出现取模运算 , 但是除法很难没法同余 , 所以这里要使用费马小定理 .</summary>
     
     
     
@@ -443,10 +444,10 @@
     <link href="http://www.inzamz.top/2020/CF1459_R691/"/>
     <id>http://www.inzamz.top/2020/CF1459_R691/</id>
     <published>2020-12-19T15:10:11.000Z</published>
-    <updated>2021-06-26T15:42:38.000Z</updated>
+    <updated>2021-07-05T07:27:52.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这次时间很舒服 , 下午五点 . 很快就写了签到题 , 本来第二题 20 分钟左右就出了 , 但是没看题 , 是单组数据的 , 结果拖了好久 . 不过想来居然是最好成绩 ? Rank 2500 , 所以低分段就是拼手速 .&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;这次时间很舒服 , 下午五点 . 很快就写了签到题 , 本来第二题 20 分钟左右就出了 , 但是没看题 , 是单组数据的 , 结果拖了好久 . 不过想来居然是最好成绩 ? Rank 2500 , 所以低分段就是拼手速 .</summary>
     
     
     
@@ -464,10 +465,10 @@
     <link href="http://www.inzamz.top/2020/Gcd/"/>
     <id>http://www.inzamz.top/2020/Gcd/</id>
     <published>2020-12-19T14:12:28.000Z</published>
-    <updated>2021-06-26T15:45:56.000Z</updated>
+    <updated>2021-07-05T07:27:44.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;最大公约数问题不只是简单的抄模版，主要是灵活利用其中的思想。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;最大公约数问题不只是简单的抄模版，主要是灵活利用其中的思想。</summary>
     
     
     
