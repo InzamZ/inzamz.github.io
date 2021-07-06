@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-07-05T15:50:28.000Z</updated>
+  <updated>2021-07-06T05:34:10.000Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -17,9 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网络课程简介 第二章 交换机和终端设备的基本配置</title>
+    <link href="http://www.inzamz.top/2021/Notes/IntroductionToNetwork/ITNCh2/"/>
+    <id>http://www.inzamz.top/2021/Notes/IntroductionToNetwork/ITNCh2/</id>
+    <published>2021-07-06T05:34:10.000Z</published>
+    <updated>2021-07-06T05:34:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://www.inzamz.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="网络" scheme="http://www.inzamz.top/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>网络课程简介 第一章 当今网络</title>
-    <link href="http://www.inzamz.top/2021/Notes/Introduction-to-Networks/"/>
-    <id>http://www.inzamz.top/2021/Notes/Introduction-to-Networks/</id>
+    <link href="http://www.inzamz.top/2021/Notes/IntroductionToNetwork/ITNCh1/"/>
+    <id>http://www.inzamz.top/2021/Notes/IntroductionToNetwork/ITNCh1/</id>
     <published>2021-07-04T12:48:58.000Z</published>
     <updated>2021-07-05T15:50:28.000Z</updated>
     
@@ -455,27 +480,6 @@
     <category term="模拟" scheme="http://www.inzamz.top/tags/%E6%A8%A1%E6%8B%9F/"/>
     
     <category term="数论" scheme="http://www.inzamz.top/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最大公约数</title>
-    <link href="http://www.inzamz.top/2020/ICPC/Algorithms/Math/Gcd/"/>
-    <id>http://www.inzamz.top/2020/ICPC/Algorithms/Math/Gcd/</id>
-    <published>2020-12-19T14:12:28.000Z</published>
-    <updated>2021-07-06T05:19:58.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最大公约数问题不只是简单的抄模版，主要是灵活利用其中的思想。</summary>
-    
-    
-    
-    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
-    
-    <category term="数学与计算几何" scheme="http://www.inzamz.top/categories/ICPC/%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
-    
-    
-    <category term="GCD" scheme="http://www.inzamz.top/tags/GCD/"/>
     
   </entry>
   
