@@ -18,8 +18,8 @@
   
   <entry>
     <title>网络课程简介 第一章 当今网络</title>
-    <link href="http://www.inzamz.top/2021/Introduction-to-Networks/"/>
-    <id>http://www.inzamz.top/2021/Introduction-to-Networks/</id>
+    <link href="http://www.inzamz.top/2021/Notes/Introduction-to-Networks/"/>
+    <id>http://www.inzamz.top/2021/Notes/Introduction-to-Networks/</id>
     <published>2021-07-04T12:48:58.000Z</published>
     <updated>2021-07-05T15:50:28.000Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>进击的巨人</title>
-    <link href="http://www.inzamz.top/2021/ShingekinoKyoji/"/>
-    <id>http://www.inzamz.top/2021/ShingekinoKyoji/</id>
+    <link href="http://www.inzamz.top/2021/Opinions/ShingekinoKyoji/"/>
+    <id>http://www.inzamz.top/2021/Opinions/ShingekinoKyoji/</id>
     <published>2021-07-04T07:55:47.000Z</published>
     <updated>2021-07-04T12:43:47.000Z</updated>
     
@@ -61,8 +61,8 @@
   
   <entry>
     <title>你好，世界</title>
-    <link href="http://www.inzamz.top/2021/MovieHelloWorld/"/>
-    <id>http://www.inzamz.top/2021/MovieHelloWorld/</id>
+    <link href="http://www.inzamz.top/2021/Opinions/MovieHelloWorld/"/>
+    <id>http://www.inzamz.top/2021/Opinions/MovieHelloWorld/</id>
     <published>2021-06-26T15:51:53.000Z</published>
     <updated>2021-06-27T15:51:53.000Z</updated>
     
@@ -80,8 +80,8 @@
   
   <entry>
     <title>2021 UESTC ICPC Training for Data Structures</title>
-    <link href="http://www.inzamz.top/2021/UPST2021DS/"/>
-    <id>http://www.inzamz.top/2021/UPST2021DS/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Algorithms/Data-Struct/UPST2021DS/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Algorithms/Data-Struct/UPST2021DS/</id>
     <published>2021-05-11T06:50:01.000Z</published>
     <updated>2021-05-21T02:59:01.000Z</updated>
     
@@ -92,41 +92,19 @@
     
     
     
-    <category term="ICPC 数据结构" scheme="http://www.inzamz.top/categories/ICPC-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="数据结构" scheme="http://www.inzamz.top/categories/ICPC/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-    <category term="ST表" scheme="http://www.inzamz.top/tags/ST%E8%A1%A8/"/>
-    
-    <category term="树状数组" scheme="http://www.inzamz.top/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
-    
-    <category term="线段树" scheme="http://www.inzamz.top/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-    <category term="主席树" scheme="http://www.inzamz.top/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
-    
-    <category term="链表" scheme="http://www.inzamz.top/tags/%E9%93%BE%E8%A1%A8/"/>
-    
-    <category term="单调栈/队列" scheme="http://www.inzamz.top/tags/%E5%8D%95%E8%B0%83%E6%A0%88-%E9%98%9F%E5%88%97/"/>
-    
-    <category term="并查集" scheme="http://www.inzamz.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-    <category term="树链剖分" scheme="http://www.inzamz.top/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
-    
-    <category term="二叉平衡树" scheme="http://www.inzamz.top/tags/%E4%BA%8C%E5%8F%89%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-    <category term="莫队算法" scheme="http://www.inzamz.top/tags/%E8%8E%AB%E9%98%9F%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="二分答案" scheme="http://www.inzamz.top/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/"/>
-    
-    <category term="K-D树" scheme="http://www.inzamz.top/tags/K-D%E6%A0%91/"/>
-    
-    <category term="扫描线" scheme="http://www.inzamz.top/tags/%E6%89%AB%E6%8F%8F%E7%BA%BF/"/>
+    <category term="数据结构" scheme="http://www.inzamz.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title>AtCoder Regular Contest 116</title>
-    <link href="http://www.inzamz.top/2021/ARC116/"/>
-    <id>http://www.inzamz.top/2021/ARC116/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Atcoder/ARC116/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Atcoder/ARC116/</id>
     <published>2021-03-29T04:56:48.000Z</published>
     <updated>2021-03-29T04:56:48.000Z</updated>
     
@@ -135,7 +113,9 @@
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/ICPC/Atcoder/"/>
     
     
     <category term="数学" scheme="http://www.inzamz.top/tags/%E6%95%B0%E5%AD%A6/"/>
@@ -144,8 +124,8 @@
   
   <entry>
     <title>Atcoder Education DP Contest</title>
-    <link href="http://www.inzamz.top/2021/EducationDPContest/"/>
-    <id>http://www.inzamz.top/2021/EducationDPContest/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Atcoder/EducationDPContest/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Atcoder/EducationDPContest/</id>
     <published>2021-03-24T02:44:51.000Z</published>
     <updated>2021-04-28T13:44:51.000Z</updated>
     
@@ -156,7 +136,9 @@
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/ICPC/Atcoder/"/>
     
     
     <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
@@ -165,8 +147,8 @@
   
   <entry>
     <title>UESTC PreSummer Training</title>
-    <link href="http://www.inzamz.top/2021/DataStructure/"/>
-    <id>http://www.inzamz.top/2021/DataStructure/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Algorithms/Data-Struct/DataStructure/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Algorithms/Data-Struct/DataStructure/</id>
     <published>2021-03-21T14:29:15.000Z</published>
     <updated>2021-03-22T15:22:25.000Z</updated>
     
@@ -177,7 +159,9 @@
     
     
     
-    <category term="ICPC 数据结构" scheme="http://www.inzamz.top/categories/ICPC-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="数据结构" scheme="http://www.inzamz.top/categories/ICPC/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
     <category term="数据结构" scheme="http://www.inzamz.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
@@ -186,8 +170,8 @@
   
   <entry>
     <title>动态规划合集</title>
-    <link href="http://www.inzamz.top/2021/DynamicProgramming/"/>
-    <id>http://www.inzamz.top/2021/DynamicProgramming/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Algorithms/Dynamic-Programming/DynamicProgramming/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Algorithms/Dynamic-Programming/DynamicProgramming/</id>
     <published>2021-03-20T02:14:30.000Z</published>
     <updated>2021-04-27T15:07:58.000Z</updated>
     
@@ -201,7 +185,9 @@
     
     
     
-    <category term="ICPC 动态规划" scheme="http://www.inzamz.top/categories/ICPC-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/categories/ICPC/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
     
     <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
@@ -210,8 +196,8 @@
   
   <entry>
     <title>KEYENCE Programming Contest 2021</title>
-    <link href="http://www.inzamz.top/2021/keyence2021/"/>
-    <id>http://www.inzamz.top/2021/keyence2021/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Atcoder/keyence2021/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Atcoder/keyence2021/</id>
     <published>2021-01-29T08:01:04.000Z</published>
     <updated>2021-01-30T08:13:39.000Z</updated>
     
@@ -226,7 +212,9 @@
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/ICPC/Atcoder/"/>
     
     
     <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
@@ -237,8 +225,8 @@
   
   <entry>
     <title>AtCoder Beginner Contest 188</title>
-    <link href="http://www.inzamz.top/2021/ABC188/"/>
-    <id>http://www.inzamz.top/2021/ABC188/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Atcoder/ABC188/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Atcoder/ABC188/</id>
     <published>2021-01-25T07:36:30.000Z</published>
     <updated>2021-01-27T14:30:26.000Z</updated>
     
@@ -252,7 +240,9 @@
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/ICPC/Atcoder/"/>
     
     
     <category term="队列" scheme="http://www.inzamz.top/tags/%E9%98%9F%E5%88%97/"/>
@@ -269,8 +259,8 @@
   
   <entry>
     <title>关于UESTC的各种考试的备考建议</title>
-    <link href="http://www.inzamz.top/2021/UESTCaboutexam/"/>
-    <id>http://www.inzamz.top/2021/UESTCaboutexam/</id>
+    <link href="http://www.inzamz.top/2021/Talks/UESTCaboutexam/"/>
+    <id>http://www.inzamz.top/2021/Talks/UESTCaboutexam/</id>
     <published>2021-01-24T08:39:25.000Z</published>
     <updated>2021-01-24T09:08:32.000Z</updated>
     
@@ -288,8 +278,8 @@
   
   <entry>
     <title>AtCoder Beginner Contest 189</title>
-    <link href="http://www.inzamz.top/2021/ABC189/"/>
-    <id>http://www.inzamz.top/2021/ABC189/</id>
+    <link href="http://www.inzamz.top/2021/ICPC/Atcoder/ABC189/"/>
+    <id>http://www.inzamz.top/2021/ICPC/Atcoder/ABC189/</id>
     <published>2021-01-24T03:34:44.000Z</published>
     <updated>2021-01-25T08:06:59.000Z</updated>
     
@@ -298,7 +288,9 @@
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/ICPC/Atcoder/"/>
     
     
     <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
@@ -313,8 +305,8 @@
   
   <entry>
     <title>关于我去看病的感想以及想吐槽校医院的这档事</title>
-    <link href="http://www.inzamz.top/2021/daily210105/"/>
-    <id>http://www.inzamz.top/2021/daily210105/</id>
+    <link href="http://www.inzamz.top/2021/Talks/daily210105/"/>
+    <id>http://www.inzamz.top/2021/Talks/daily210105/</id>
     <published>2021-01-05T09:27:05.000Z</published>
     <updated>2021-01-21T01:41:43.000Z</updated>
     
@@ -336,8 +328,8 @@
   
   <entry>
     <title>Goodbye2020</title>
-    <link href="http://www.inzamz.top/2021/Goodbye2020/"/>
-    <id>http://www.inzamz.top/2021/Goodbye2020/</id>
+    <link href="http://www.inzamz.top/2021/Talks/Goodbye2020/"/>
+    <id>http://www.inzamz.top/2021/Talks/Goodbye2020/</id>
     <published>2020-12-31T17:12:57.000Z</published>
     <updated>2021-06-26T15:38:38.000Z</updated>
     
@@ -362,8 +354,8 @@
   
   <entry>
     <title>BaiduUrls</title>
-    <link href="http://www.inzamz.top/2020/BaiduUrls/"/>
-    <id>http://www.inzamz.top/2020/BaiduUrls/</id>
+    <link href="http://www.inzamz.top/2020/Tools/BaiduUrls/"/>
+    <id>http://www.inzamz.top/2020/Tools/BaiduUrls/</id>
     <published>2020-12-23T15:07:51.000Z</published>
     <updated>2021-06-26T15:37:38.000Z</updated>
     
@@ -381,8 +373,8 @@
   
   <entry>
     <title>缺失的数字</title>
-    <link href="http://www.inzamz.top/2020/lackingnumber/"/>
-    <id>http://www.inzamz.top/2020/lackingnumber/</id>
+    <link href="http://www.inzamz.top/2020/Talks/lackingnumber/"/>
+    <id>http://www.inzamz.top/2020/Talks/lackingnumber/</id>
     <published>2020-12-23T14:38:11.000Z</published>
     <updated>2021-06-26T15:40:30.000Z</updated>
     
@@ -400,8 +392,8 @@
   
   <entry>
     <title>STL的学习笔记</title>
-    <link href="http://www.inzamz.top/2020/STL/"/>
-    <id>http://www.inzamz.top/2020/STL/</id>
+    <link href="http://www.inzamz.top/2020/ICPC/Algorithms/Basic/STL/"/>
+    <id>http://www.inzamz.top/2020/ICPC/Algorithms/Basic/STL/</id>
     <published>2020-12-21T09:11:56.000Z</published>
     <updated>2021-01-26T08:50:26.000Z</updated>
     
@@ -413,7 +405,9 @@
     
     
     
-    <category term="ICPC 算法基础" scheme="http://www.inzamz.top/categories/ICPC-%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="算法基础" scheme="http://www.inzamz.top/categories/ICPC/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
     
     
     <category term="STL" scheme="http://www.inzamz.top/tags/STL/"/>
@@ -422,8 +416,8 @@
   
   <entry>
     <title>费马小定理与逆元</title>
-    <link href="http://www.inzamz.top/2020/InverseElement/"/>
-    <id>http://www.inzamz.top/2020/InverseElement/</id>
+    <link href="http://www.inzamz.top/2020/ICPC/Algorithms/Math/InverseElement/"/>
+    <id>http://www.inzamz.top/2020/ICPC/Algorithms/Math/InverseElement/</id>
     <published>2020-12-19T15:33:25.000Z</published>
     <updated>2021-01-29T13:59:52.000Z</updated>
     
@@ -432,7 +426,9 @@
     
     
     
-    <category term="ICPC 数学与计算几何" scheme="http://www.inzamz.top/categories/ICPC-%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="数学与计算几何" scheme="http://www.inzamz.top/categories/ICPC/%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
     
     
     <category term="逆元" scheme="http://www.inzamz.top/tags/%E9%80%86%E5%85%83/"/>
@@ -441,17 +437,19 @@
   
   <entry>
     <title>Codeforces Round 691 (Div. 2)</title>
-    <link href="http://www.inzamz.top/2020/CF1459_R691/"/>
-    <id>http://www.inzamz.top/2020/CF1459_R691/</id>
+    <link href="http://www.inzamz.top/2020/ICPC/Codeforces/CF1459_R691/"/>
+    <id>http://www.inzamz.top/2020/ICPC/Codeforces/CF1459_R691/</id>
     <published>2020-12-19T15:10:11.000Z</published>
-    <updated>2021-06-26T15:42:38.000Z</updated>
+    <updated>2021-07-06T05:12:44.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;这次时间很舒服 , 下午五点 . 很快就写了签到题 , 本来第二题 20 分钟左右就出了 , 但是没看题 , 是单组数据的 , 结果拖了好久 . 不过想来居然是最好成绩 ? Rank 2500 , 所以低分段就是拼手速 .</summary>
     
     
     
-    <category term="ICPC Programming Contest" scheme="http://www.inzamz.top/categories/ICPC-Programming-Contest/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/ICPC/Codeforces/"/>
     
     
     <category term="模拟" scheme="http://www.inzamz.top/tags/%E6%A8%A1%E6%8B%9F/"/>
@@ -462,17 +460,19 @@
   
   <entry>
     <title>最大公约数</title>
-    <link href="http://www.inzamz.top/2020/Gcd/"/>
-    <id>http://www.inzamz.top/2020/Gcd/</id>
+    <link href="http://www.inzamz.top/2020/ICPC/Algorithms/Math/Gcd/"/>
+    <id>http://www.inzamz.top/2020/ICPC/Algorithms/Math/Gcd/</id>
     <published>2020-12-19T14:12:28.000Z</published>
-    <updated>2021-06-26T15:45:56.000Z</updated>
+    <updated>2021-07-06T05:19:58.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;最大公约数问题不只是简单的抄模版，主要是灵活利用其中的思想。</summary>
     
     
     
-    <category term="ICPC 数学与计算几何" scheme="http://www.inzamz.top/categories/ICPC-%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
+    <category term="ICPC" scheme="http://www.inzamz.top/categories/ICPC/"/>
+    
+    <category term="数学与计算几何" scheme="http://www.inzamz.top/categories/ICPC/%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
     
     
     <category term="GCD" scheme="http://www.inzamz.top/tags/GCD/"/>
