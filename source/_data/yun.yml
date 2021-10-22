@@ -1,0 +1,372 @@
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/font_2261522_jtdfz3yn99a.js
+
+colors:
+  primary: "#93A3B3"
+  bg: "#F1B6C6"
+  selection_bg: "#F1B6C6" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+  
+tags:
+  Vue: "#4fc08d"
+  Hexo: "#0E834D"
+  CSS: "#5298d1"
+  Node.js: "#026E00"
+  Git: "#F14E32"
+  React: "#61dafb"
+  Python: "#3776ab"
+  PHP: "#8892BF"
+  VS Code: "#0066B8"
+  JavaScript: "#F4DF4F"
+  TypeScript: "#317AC6"
+  Laravel: "#F4645F"
+
+favicon: /favicon.ico
+
+# 可选 light | dark | auto | time
+mode: auto
+
+notice:
+  enable: true
+  # content: 2020-12-02 Happy birthday ,Sakurajima Mai and my new Blog used theme Yun!
+  # content: 2020-12-13 国家公祭日 铭记历史,珍爱和平.勿忘国耻,吾辈自强.
+  # content: 2020-12-17 给了她一个不沉陷于世间蝇营狗苟,仰望星空的梦 --国家宝藏 王贞仪
+  # content: 2021-01-05 开始复习，真让人头秃。
+  # content: 2021-01-20 到家啦！开始寒假生活。
+  # content: 2021-03-19 回校三周了，好久没更新了 
+  content: 于是这一年就这么摸鱼过来了,没学到技术,学业没成绩,你真是个fw
+  
+banner:
+  enable: true
+  title: 
+    - I
+    - n
+    - z
+    - a
+    - m
+    - の
+    - 小
+    - 站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "#A99AAE"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line 
+
+social:
+  - name: GitHub
+    link: https://github.com/InzamZ
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:me@inzamz.top
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/u/7529779251?is_all=1
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=1525382286
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/ge-zhe-79-3
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/259102692
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: POPI
+    link: https://www.popiapp.cn/TnolgX
+    icon: icon-questionnaire-line
+    color: "#525252"
+  - name: Telegram
+    link: https://t.me/InzamZ
+    icon: icon-telegram-line
+    color: "#0088CC"
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+#  - name: QQ
+#    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+#    link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+#    icon: icon-qq-line
+#    color: "#12B7F5"
+  - name: 豆瓣
+    link: https://www.douban.com/people/inzamz/
+    icon: icon-douban-line
+    color: "#007722"
+#  - name: 微信公众号
+#    link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+#    icon: icon-wechat-2-line
+#    color: "#1AAD19"
+#  - name: Twitter
+#    link: https://twitter.com/YunYouJun
+#    icon: icon-twitter-line
+#    color: "#1da1f2"
+#  - name: Telegram Channel
+#    link: https://t.me/elpsycn
+#    icon: icon-telegram-fill
+#    color: "#0088CC"
+#  - name: Travelling
+#    link: https://travellings.now.sh/
+#    icon: icon-send-plane-2-line
+#    color: black
+
+bg_image:
+  enable: true
+  url: https://img.inzamz.top/bg/bg.jpg
+  dark: https://img.inzamz.top/bg/bgdark.jpg
+  blur: 10px # 设置背景模糊程度
+  opacity: 1
+  
+sidebar:
+  bg_image: https://img.inzamz.top/bg/sidebg.jpg
+  bg_position: bottom -7rem center
+  tagcloud:
+    enable: true
+    amount: 5
+
+albums:
+  enable: true    
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/InzamZ/inzamz.github.io@main/img/cur/Miku/puntero.cur
+  #pointer: https://cdn.jsdelivr.net/gh/InzamZ/inzamz.github.io@main/img/cur/Miku/Aero_Link.ani
+  #text: https://cdn.jsdelivr.net/gh/InzamZ/inzamz.github.io@main/img/cur/Miku/texto.cur
+    
+avatar:
+  enable: true
+  url: /images/liwei.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 😯
+    message: 默哀
+    
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+    
+pages:
+
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+    
+  - name: 相册
+    url: /albums/
+    icon: icon-gallery-line
+    color: gray
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+  
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+    
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  live_time:
+    enable: true
+    prefix: 本博客已进行壁外调查
+    suffix: (●'◡'●)
+    start_time: "2020-10-08T17:00:00"
+  powered:
+    enable: true
+  beian:
+    enable: true
+    icp: 粤ICP备2021032030号
+  custom_text: <a style="display:inline-block" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云"><img height="30" src="https://img.inzamz.top/links/upyun.png" alt="upyun"/></a>
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    - "12-13"
+    
+wordcloud:
+  enable: true
+  
+girls:
+  enable: true
+  
+pjax:
+    enable: true
+  
+mathjax:
+    enable: true
+    
+wordcount:
+  enable: true
+  count: true
+  time: true
+ 
+aplayer:
+  global: true
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: true
+    autoplay: true
+    # theme: "#2980b9"
+    loop: all
+    order: random
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: false
+    listMaxHeight: 340px
+    audio:
+      - name: 星宿计时
+        artist: 杉田朗/洛天依
+        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
+    meting:
+      enable: true
+      id: 2322278166
+      server: netease
+      type: playlist
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://p.130014.xyz/2020/12/03/1173CB0E-9A44-45A6-8991-515958F4ADBB.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: QQ 支付
+      path: https://p.130014.xyz/2020/12/03/9AACAEEE-03D9-4794-BAC6-2EE2965384DF.jpg
+      color: "#12B7F5"
+      icon: icon-qq-line
+    - name: 微信支付
+      path: https://p.130014.xyz/2020/12/03/25F401EB-6BED-4A00-BAD2-DF69A9011C8A.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+#评论系统
+valine:
+  enable: true
+  appId: Llj1MKoKOybvfqLYNAlxUeUs-MdYXbMMI
+  appKey: d1gysunv9oLlyLR06QjaIHgF
+  placeholder: 欢迎大家友好地发起评论和建议,本蒟蒻一定虚心学习 # comment box placeholder
+  avatar: # gravatar style
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10 # pagination size
+  lang: zh-CN
+  visitor: true
+  highlight: true
+  recordIP: true
+  # serverURLs:
+  # Emoji See: https://valine.js.org/emoji.html
+  # emojiCDN: //i0.hdslb.com/bfs/emote/
+  # emojiMaps:
+    # tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
+  #   more...
+  # enableQQ: false
+  # requiredFields:
+  #   - nick
+  #   - mail
+  
+github_issues:
+  enable: true
+  username: InzamZ
+  repository: inzamz.github.io
+  filters: is:issue
+
+# search
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+search:
+  modal: false
+  bg_image: https://img.inzamz.top/bg/searchbg.jpg
+  dark_bg_image: https://img.inzamz.top/bg/sbgdark.jpg
+
+# widget_tree:
+#   cdn: false
+#   hide: false
+#   layout: default
+#   # layout:
+#   #   - home
+#   #   - page
+#   toc:
+#     enable: false
+#     # max_depth:
+#     # min_depth:
+#     # list_number:
+
+   
+say:
+  enable: true
+  # api: https://say.elpsy.cn/sentences.json
+  # /data/sentences.json
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # src is the script
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=k&encode=json
+
+baidu_push: true
