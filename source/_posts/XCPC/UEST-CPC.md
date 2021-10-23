@@ -5,8 +5,10 @@ tags:
   - BST
   - string
   - 堆
+updated: 2021-10-23 17:47:00
 categories:
-  - ICPC Programming Contest
+	- XCPC
+    - 学习笔记
 ---
 
 > 初赛

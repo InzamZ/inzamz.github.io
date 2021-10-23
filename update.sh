@@ -1,9 +1,11 @@
-info=$1
-if ["$info" = ""];
+info1=$1
+
+if ["$info1" = ""];
 then info=":pencil: update content"
 fi
+
 git add -A
-git commit -m "$info"
+git commit -m "$info1"
 git push origin hexo
 
 hexo clean
