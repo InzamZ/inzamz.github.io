@@ -117,10 +117,10 @@ social:
 #    link: https://twitter.com/YunYouJun
 #    icon: icon-twitter-line
 #    color: "#1da1f2"
-#  - name: Telegram Channel
-#    link: https://t.me/elpsycn
-#    icon: icon-telegram-fill
-#    color: "#0088CC"
+  - name: Telegram Channel
+    link: https://t.me/inzamzsgossip
+    icon: icon-telegram-fill
+    color: "#0088CC"
 #  - name: Travelling
 #    link: https://travellings.now.sh/
 #    icon: icon-send-plane-2-line
