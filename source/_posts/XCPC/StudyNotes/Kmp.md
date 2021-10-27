@@ -3,12 +3,12 @@ title: KMP Algorithm
 date: 2020-11-26 7:35:26
 updated: 2021-10-23 17:47:00
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 学习笔记
 tags:
-	- KMP
-	- BM
-	- Sunday
+  - KMP
+  - BM
+  - Sunday
 ---
 第一次使用英文写，语病估计一堆，随便看看吧。
 <!-- more -->

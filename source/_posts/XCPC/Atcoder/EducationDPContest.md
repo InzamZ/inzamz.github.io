@@ -2,11 +2,11 @@
 title: Atcoder Education DP Contest
 date: 2021-03-24 10:44:51
 updated: 2021-04-28 21:44:51
-tags:
-	- 动态规划
 categories:
-	- XCPC
-    - Atcoder
+  - XCPC
+  - Atcoder
+tags:
+  - 动态规划
 ---
 
 > Atcoder上面的 DP 练习题 , 主要是能看到别人的代码 .

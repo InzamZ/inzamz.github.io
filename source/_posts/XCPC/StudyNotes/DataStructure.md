@@ -3,10 +3,10 @@ title: UESTC PreSummer Training
 date: 2021-03-21 22:29:15
 updated: 2021-03-22 23:22:25
 tags:
-	- 数据结构
+  - 数据结构
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 学习笔记
 ---
 
 > 这是去年的数据结构专题，拿来练练。

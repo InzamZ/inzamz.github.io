@@ -7,8 +7,8 @@ tags:
   - 堆
 updated: 2021-10-23 17:47:00
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 其他比赛
 ---
 
 > 初赛

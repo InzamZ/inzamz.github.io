@@ -1,7 +1,7 @@
 info1=$1
 
-if ["$info1" = ""];
-then info=":pencil: update content"
+if ["$info1" = ""]:
+then info1=":pencil: update content"
 fi
 
 git add -A

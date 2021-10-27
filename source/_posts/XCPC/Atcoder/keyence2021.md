@@ -2,12 +2,12 @@
 title: KEYENCE Programming Contest 2021
 date: 2021-01-29 16:01:04
 updated: 2021-01-30 16:13:39
-tags:
-	- 贪心
-	- 动态规划
 categories:
-	- XCPC
-    - Atcoder
+  - XCPC
+  - Atcoder
+tags:
+  - 贪心
+  - 动态规划
 ---
 
 <!-- more -->

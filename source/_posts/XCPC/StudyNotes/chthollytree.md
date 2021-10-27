@@ -3,11 +3,11 @@ title: Chtholly Tree
 date: 2020-11-18 11:31:22
 updated: 2021-10-23 17:47:00
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 学习笔记
 tags:
-	- 区间赋值
-	- 暴力
+  - 区间赋值
+  - 暴力
 ---
 
 ## 珂教兴国

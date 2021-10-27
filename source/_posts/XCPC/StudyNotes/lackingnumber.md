@@ -2,11 +2,11 @@
 title: 缺失的数字
 date: 2020-12-23 22:38:11
 tags:
-	- 数论
+  - 数论
 updated: 2021-10-23 17:47:00
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 学习笔记
 ---
 我在查找费马小定理的资料时 , 发现了这篇文章 . 我觉得很有趣 , 就学习一下 . 
 转载参考自 https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html

@@ -1,5 +1,5 @@
-http://www.inzamz.top/2021/Introduction-to-Networks/
-http://www.inzamz.top/2021/ShingekinoKyoji/
-http://www.inzamz.top/2021/MovieHelloWorld/
+http://www.inzamz.top/2021/Notes/Introduction-to-Networks/
+http://www.inzamz.top/2021/View/ShingekinoKyoji/
+http://www.inzamz.top/2021/View/MovieHelloWorld/
 http://www.inzamz.top/2021/XCPC/UPST2021DS/
-http://www.inzamz.top/2021/XCPC/ARC116/
+http://www.inzamz.top/2021/XCPC/Atcoder/ARC116/

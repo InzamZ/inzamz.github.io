@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#93A3B3"><meta name="author" content="Inzam"><meta name="copyright" content="Inzam"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>排序算法 | InzamZ的小破站</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".post-content img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link class="aplayer-style-marker" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script class="aplayer-script-marker" src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" defer></script><script class="meting-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><link id="light-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism.css" media="(prefers-color-scheme: light)"><link id="dark-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism-tomorrow.css" media="(prefers-color-scheme: dark)"><link rel="icon" href="/favicon.ico"><link rel="mask-icon" href="/favicon.ico" color="#93A3B3"><link rel="alternate icon" href="/yun.ico"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
+    const Yun = window.Yun || {};
+    window.CONFIG = {"hostname":"www.inzamz.top","root":"/","title":["I","n","z","a","m","の","小","站"],"version":"1.6.3","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=k&encode=json","hitokoto":true},"local_search":{"path":"/search.xml"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/utils.js"></script><script src="/js/hexo-theme-yun.js"></script><link rel="alternate" href="/atom.xml" title="InzamZ的小破站" type="application/atom+xml"><script src="//at.alicdn.com/t/font_2261522_jtdfz3yn99a.js" async></script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><meta name="description" content="补完排序算法的课后, 自然地就会想到其他算法了, 所以我搞了归并排序, Shell 排序, 以及堆排序.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="排序算法">
+<meta property="og:url" content="http://www.inzamz.top/2020/XCPC/StudyNotes/SortAlgorithm/index.html">
+<meta property="og:site_name" content="InzamZ的小破站">
+<meta property="og:description" content="补完排序算法的课后, 自然地就会想到其他算法了, 所以我搞了归并排序, Shell 排序, 以及堆排序.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/7724107A-AAFF-4FB2-A07D-305831F0B238.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/F9341DE5-25A5-47E8-8218-10C552046FCD.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/EED43B5F-C82D-4B96-BF3B-AC05E304388E.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort001.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort002.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort003.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort004.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort005.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort006.png">
+<meta property="og:image" content="https://p.130014.xyz/2020/11/03/sort007.png">
+<meta property="article:published_time" content="2020-10-31T15:22:18.000Z">
+<meta property="article:modified_time" content="2021-10-23T09:47:00.000Z">
+<meta property="article:author" content="Inzam">
+<meta property="article:tag" content="分治">
+<meta property="article:tag" content="排序">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p.130014.xyz/2020/11/03/7724107A-AAFF-4FB2-A07D-305831F0B238.png"><script src="/js/ui/mode.js"></script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info mickey-mouse"><a class="site-author-avatar" href="/about/" title="Inzam"><img width="96" loading="lazy" src="/images/liwei.jpg" alt="Inzam"><span class="site-author-status" title="默哀">😯</span></a><div class="site-author-name"><a href="/about/">Inzam</a></div><a class="site-name" href="/about/site.html">InzamZ的小破站</a><sub class="site-subtitle">胆大飘洋过海,胆小寸步难行</sub><div class="site-desciption">一个自言自语的地方</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">38</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">58</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-clipboard-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/InzamZ" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:me@inzamz.top" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://weibo.com/u/7529779251?is_all=1" title="微博" target="_blank" style="color:#E6162D"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/user/home?id=1525382286" title="网易云音乐" target="_blank" style="color:#C10D0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.zhihu.com/people/ge-zhe-79-3" title="知乎" target="_blank" style="color:#0084FF"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/259102692" title="哔哩哔哩动画" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.popiapp.cn/TnolgX" title="POPI" target="_blank" style="color:#525252"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-questionnaire-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/InzamZ" title="Telegram" target="_blank" style="color:#0088CC"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-telegram-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.douban.com/people/inzamz/" title="豆瓣" target="_blank" style="color:#007722"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-douban-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://t.me/inzamzsgossip" title="Telegram Channel" target="_blank" style="color:#0088CC"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-telegram-fill"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a><a class="links-item hty-icon-button" href="/girls/" title="喜欢的女孩子" style="color:hotpink"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-women-line"></use></svg></a><a class="links-item hty-icon-button" href="/albums/" title="相册" style="color:gray"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-gallery-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="toc-number">1.</span> <span class="toc-text">插入排序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3"><span class="toc-number">1.1.</span> <span class="toc-text">核心思想</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code"><span class="toc-number">1.2.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E4%B8%80%EF%BC%9A%E4%BA%8C%E5%88%86%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="toc-number">1.3.</span> <span class="toc-text">优化一：二分插入排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E4%BA%8C%EF%BC%9AShell-%E6%8E%92%E5%BA%8F"><span class="toc-number">1.4.</span> <span class="toc-text">优化二：Shell 排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9F%E5%BA%A6%E5%AF%B9%E6%AF%94"><span class="toc-number">1.5.</span> <span class="toc-text">速度对比</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="toc-number">2.</span> <span class="toc-text">归并排序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3-1"><span class="toc-number">2.1.</span> <span class="toc-text">核心思想</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code-1"><span class="toc-number">2.2.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90"><span class="toc-number">2.3.</span> <span class="toc-text">复杂度分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A0%86%E6%8E%92%E5%BA%8F"><span class="toc-number">3.</span> <span class="toc-text">堆排序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E7%90%86"><span class="toc-number">3.1.</span> <span class="toc-text">原理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%BC%94%E7%A4%BA"><span class="toc-number">3.2.</span> <span class="toc-text">演示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code-2"><span class="toc-number">3.3.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90-1"><span class="toc-number">3.4.</span> <span class="toc-text">复杂度分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D%E4%BC%98%E5%8C%96"><span class="toc-number">3.5.</span> <span class="toc-text">反思优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9F%E5%BA%A6%E5%AF%B9%E6%AF%94-1"><span class="toc-number">3.6.</span> <span class="toc-text">速度对比</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">总结</span></a></li></ol></div></div></div><div class="tag-cloud"><div class="tag-cloud-tags"><a href="/tags/2020/" style="font-size: 12px; color: #999">2020</a> <a href="/tags/BFS/" style="font-size: 12px; color: #999">BFS</a> <a href="/tags/BM/" style="font-size: 12px; color: #999">BM</a> <a href="/tags/BST/" style="font-size: 12px; color: #999">BST</a> <a href="/tags/GCD/" style="font-size: 12px; color: #999">GCD</a></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="http://www.inzamz.top/2020/XCPC/StudyNotes/SortAlgorithm/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Inzam"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="InzamZ的小破站"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">排序算法</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2020-10-31 23:22:18" itemprop="dateCreated datePublished" datetime="2020-10-31T23:22:18+08:00">2020-10-31</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2021-10-23 17:47:00" itemprop="dateModified" datetime="2021-10-23T17:47:00+08:00">2021-10-23</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">2.1k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">8m</span></span></span><span class="leancloud_visitors" id="/2020/XCPC/StudyNotes/SortAlgorithm/" data-flag-title="排序算法"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg> <span class="leancloud-visitors-count"></span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/XCPC/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">XCPC</span></a></span> > <span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">学习笔记</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%88%86%E6%B2%BB/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">分治</span></a><a class="tag-item" href="/tags/%E6%8E%92%E5%BA%8F/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">排序</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body" style="--smc-primary:#93A3B3;"><p>补完排序算法的课后, 自然地就会想到其他算法了, 所以我搞了归并排序, Shell 排序, 以及堆排序. </p>
+<span id="more"></span>
+
+<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="核心思想"><a href="#核心思想" class="headerlink" title="核心思想"></a>核心思想</h3><p>插入排序是将元素与排序好的元素一一比对, 找到元素应该在的位置, 将其插入. 就像打扑克牌是顺牌一样.</p>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">void</span> <span class="token function">Insertsort</span> <span class="token punctuation">(</span><span class="token keyword">int</span> s<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token keyword">int</span> l<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>l<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>r<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+   		<span class="token keyword">int</span> j<span class="token operator">=</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>key<span class="token operator">=</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+   		<span class="token keyword">while</span> <span class="token punctuation">(</span>j<span class="token operator">>=</span>l <span class="token operator">&amp;&amp;</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">></span>key<span class="token punctuation">)</span>
+   		<span class="token punctuation">&#123;</span>
+   			s<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+   			j<span class="token operator">--</span><span class="token punctuation">;</span>
+   		<span class="token punctuation">&#125;</span>
+   		s<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>key<span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="优化一：二分插入排序"><a href="#优化一：二分插入排序" class="headerlink" title="优化一：二分插入排序"></a>优化一：二分插入排序</h3><p>其实找元素的位置可以不用从后往前, 可以二分查找, 然后再移动数组.这样可以加快速度, 数据小时不明显.</p>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">int</span> <span class="token function">BinarySearchPos</span><span class="token punctuation">(</span><span class="token keyword">int</span> s<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token keyword">int</span> l<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> key<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">int</span> i<span class="token operator">=</span>l<span class="token punctuation">,</span>j<span class="token operator">=</span>r<span class="token punctuation">,</span>mid<span class="token punctuation">;</span>
+	<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;=</span>j<span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+		mid<span class="token operator">=</span><span class="token punctuation">(</span>i<span class="token operator">+</span>j<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+		<span class="token keyword">if</span> <span class="token punctuation">(</span>key<span class="token operator">==</span>s<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token punctuation">)</span> 
+		<span class="token punctuation">&#123;</span>
+			<span class="token comment">//return the biggest subscript of value 'key'</span>
+			<span class="token keyword">while</span> <span class="token punctuation">(</span>key<span class="token operator">==</span>s<span class="token punctuation">[</span>mid<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> mid<span class="token operator">++</span><span class="token punctuation">;</span>
+			<span class="token keyword">return</span> mid<span class="token punctuation">;</span>
+		<span class="token punctuation">&#125;</span>
+		<span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>mid<span class="token punctuation">]</span><span class="token operator">></span>key<span class="token punctuation">)</span> j<span class="token operator">=</span>mid<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+		<span class="token keyword">else</span> i<span class="token operator">=</span>mid<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+	<span class="token keyword">return</span> i<span class="token punctuation">;</span>
+ <span class="token punctuation">&#125;</span> 
+ 
+<span class="token keyword">void</span> <span class="token function">BinarySort</span> <span class="token punctuation">(</span><span class="token keyword">int</span> s<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token keyword">int</span> l<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>l<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>r<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+		<span class="token keyword">int</span> pos<span class="token operator">=</span><span class="token function">BinarySearchPos</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>l<span class="token punctuation">,</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token keyword">int</span> j<span class="token operator">=</span>i<span class="token punctuation">,</span>key<span class="token operator">=</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+		<span class="token keyword">while</span> <span class="token punctuation">(</span>j<span class="token operator">></span>pos<span class="token punctuation">)</span>
+		<span class="token punctuation">&#123;</span>
+			s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>j<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+			j<span class="token operator">--</span><span class="token punctuation">;</span>
+		<span class="token punctuation">&#125;</span>
+		s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>key<span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="优化二：Shell-排序"><a href="#优化二：Shell-排序" class="headerlink" title="优化二：Shell 排序"></a>优化二：Shell 排序</h3><p>Shell 排序，又称缩小增量排序。出自 D.L.Shell ，因此得名。它的核心思想先取增量 d<sub>1</sub> ,将间隔为 d<sub>1</sub> 的数分为一组, 总共 d<sub>1</sub> 组. 对各组插入排序, 然后缩小增量, 重复此过程, 最后增量为1时, 最后一次插入排序.</p>
+<p>该算法优点在于它能让数组尽可能先有序, 使插入排序的效率更高.</p>
+<p>Shell 排序很依赖增量的选法, 一开始 D.L.Shell 直接取 n/2 , 然而会导致有些情况, 奇数位置和偶数位置直到1时才比较, 效率不高.所以其他大佬们提出了各种方法, 有人提出都要用奇数, 有人提出.要用互质的数等等……此处我们采用 Knuth 算法 ,他建议在 n&lt;1000 时使用. </p>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">void</span> <span class="token function">KnuthShellSort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> length<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">int</span> h<span class="token punctuation">;</span>
+	<span class="token keyword">for</span> <span class="token punctuation">(</span>h<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>h<span class="token operator">&lt;=</span>length<span class="token operator">/</span><span class="token number">9</span><span class="token punctuation">;</span>h<span class="token operator">=</span>h<span class="token operator">*</span><span class="token number">3</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span>h<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">;</span>h<span class="token operator">=</span>h<span class="token operator">/</span><span class="token number">3</span><span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+		<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>h<span class="token punctuation">;</span>i<span class="token operator">&lt;</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
+		<span class="token punctuation">&#123;</span>
+			<span class="token keyword">int</span> key<span class="token operator">=</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>j<span class="token operator">=</span>i<span class="token punctuation">;</span>
+			<span class="token keyword">for</span> <span class="token punctuation">(</span> j<span class="token operator">=</span>i<span class="token operator">-</span>h <span class="token punctuation">;</span> j<span class="token operator">>=</span><span class="token number">0</span> <span class="token operator">&amp;&amp;</span> s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">></span>key <span class="token punctuation">;</span> j<span class="token operator">-=</span>h <span class="token punctuation">)</span> s<span class="token punctuation">[</span>j<span class="token operator">+</span>h<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+			s<span class="token punctuation">[</span>j<span class="token operator">+</span>h<span class="token punctuation">]</span><span class="token operator">=</span>key<span class="token punctuation">;</span>
+		<span class="token punctuation">&#125;</span>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="速度对比"><a href="#速度对比" class="headerlink" title="速度对比"></a>速度对比</h3><p>使用 1000 组 10000 个随机数. 同一套数据. </p>
+<table>
+<thead>
+<tr>
+<th align="center">单位: ms</th>
+<th align="center">插入排序</th>
+<th align="center">二分插入排序</th>
+<th align="center">Shell Knuth</th>
+<th align="center">快速排序</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">时间</td>
+<td align="center">50157</td>
+<td align="center">40869</td>
+<td align="center">6079</td>
+<td align="center">5841</td>
+</tr>
+</tbody></table>
+<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><h3 id="核心思想-1"><a href="#核心思想-1" class="headerlink" title="核心思想"></a>核心思想</h3><p>归并排序也是一种分治思想, 它把数组平分为小数组, 分别让子数组有序, 然后合并两个子区间. 两个有序的子数组排序比较简单, 让两个光标分别指向子数组开头, 比较光标指向的数, 把小的数放在新数组前面并移动光标. 当有一个数组到达边界是, 另外一个数组的只需依次全部放进新数组即可.(因为之后的数都大于前面数组的最大值) 而递归平分数组的边界刚好是只有一个元素, 必然有序. 所以问题就解决了. </p>
+<h3 id="Code-1"><a href="#Code-1" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">void</span> <span class="token function">MergeArray</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> l<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token operator">*</span> temp<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">int</span> i<span class="token operator">=</span>l<span class="token punctuation">,</span>m<span class="token operator">=</span><span class="token punctuation">(</span>l<span class="token operator">+</span>r<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">,</span>j<span class="token operator">=</span>m<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>k<span class="token operator">=</span>l<span class="token punctuation">;</span>
+	<span class="token keyword">while</span> <span class="token punctuation">(</span> i<span class="token operator">&lt;=</span>m <span class="token operator">&amp;&amp;</span> j<span class="token operator">&lt;=</span>r <span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+		<span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">&lt;=</span>s<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> temp<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>i<span class="token operator">++</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+		<span class="token keyword">else</span> temp<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>j<span class="token operator">++</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+		k<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+	<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;=</span>m<span class="token punctuation">)</span> temp<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>i<span class="token operator">++</span><span class="token punctuation">]</span><span class="token punctuation">,</span>k<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span> <span class="token punctuation">(</span>j<span class="token operator">&lt;=</span>r<span class="token punctuation">)</span> temp<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>j<span class="token operator">++</span><span class="token punctuation">]</span><span class="token punctuation">,</span>k<span class="token operator">++</span><span class="token punctuation">;</span>
+	i<span class="token operator">=</span>l<span class="token punctuation">;</span>
+	<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;=</span>r<span class="token punctuation">)</span>
+	<span class="token punctuation">&#123;</span>
+		s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>temp<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+		i<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">void</span> <span class="token function">Mergesort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> l<span class="token punctuation">,</span> <span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token operator">*</span> temp<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>r<span class="token operator">&lt;=</span>l<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token punctuation">;</span>
+	<span class="token keyword">int</span> m<span class="token operator">=</span><span class="token punctuation">(</span>l<span class="token operator">+</span>r<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+	<span class="token function">Mergesort</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>l<span class="token punctuation">,</span>m<span class="token punctuation">,</span>temp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">Mergesort</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>m<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span>temp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">MergeArray</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>l<span class="token punctuation">,</span>r<span class="token punctuation">,</span>temp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><p>归并排序的时间复杂度是 O(n*logn) , 比较稳定, 理论上速度优于快速排序, 因为快速排序效率取决于基准数的选取. 那实际情况呢, 我测试了一下. 1000 组 10000 个随机数的数据.</p>
+<table>
+<thead>
+<tr>
+<th align="center">单位: ms</th>
+<th align="center">归并排序</th>
+<th align="center">Shell Knuth</th>
+<th align="center">快速排序</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">时间</td>
+<td align="center">5900</td>
+<td align="center">6079</td>
+<td align="center">5841</td>
+</tr>
+</tbody></table>
+<p>然而发现并没有很大的速度差距. 原因是归并排序需要在数组间转来转去, 这个并没有算入时间复杂度, 这是个常数, 但这个常数大到不可忽略. 而且你需要一个临时数组(可以共用), 空间复杂度应该是 O(N).</p>
+<p>其实有可以实现 O(1) 的代码,但代码复杂度会变高. 有时间再研究, 毕竟<span class="heimu">期中考迫近,作业写不完</span></p>
+<h2 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>利用堆这一结构进行排序，堆是一种数据结构，结构保证节点值大于其子树的所有值。利用堆来排序，先要构造一个堆，然后将堆顶元素与最后一个节点交换，最后一个节点已经为最大值，不参与接下来堆的构造。再维护一下堆，直到整个数组排序完成。</p>
+<p>因为一开始整个数组都是无序的，所以要对非叶子节点都进行构造堆，从下往上，从右往左。如果父节点和子节点发生交换，那么新的子节点也要和孙节点再次比较，因为换下来的数比原来的子节点小，那么需要再次比较。当然，循环到这个数比子节点大时就可以停止了。</p>
+<p>交换堆顶和最后一个元素后，其实根节点的左右子树都是一个堆，所以，只需要对堆顶(刚换上来的数)构造堆即可。</p>
+<h3 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h3><p>举个例子：<br>找到第一个非叶子节点，图中是6.<br><img src="https://p.130014.xyz/2020/11/03/7724107A-AAFF-4FB2-A07D-305831F0B238.png" loading="lazy"><br>和两个叶子节点比较后发现，8比6大，于是交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/F9341DE5-25A5-47E8-8218-10C552046FCD.png" loading="lazy"></p>
+<p>下一个节点是5，5&lt;8,交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/EED43B5F-C82D-4B96-BF3B-AC05E304388E.png" loading="lazy"></p>
+<p>此处因为8和5交换，对5新的位置要再次进行节点维护，6&gt;5,交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort001.png" loading="lazy"></p>
+<p>接下来把8换到最后一个节点，5换到堆顶，维护堆。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort002.png" loading="lazy"></p>
+<p>6&gt;5 ，交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort003.png" loading="lazy"></p>
+<p>堆维护完毕，6与2交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort004.png" loading="lazy"></p>
+<p>5&gt;2，5和2交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort005.png" loading="lazy"></p>
+<p>堆生成完毕。5和4交换。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort006.png" loading="lazy"></p>
+<p>交换完还是满足堆的定义，于是交换2和4，排序完成。</p>
+<p><img src="https://p.130014.xyz/2020/11/03/sort007.png" loading="lazy"></p>
+<h3 id="Code-2"><a href="#Code-2" class="headerlink" title="Code"></a>Code</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">void</span> <span class="token function">IfyMaxHeap</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> start<span class="token punctuation">,</span><span class="token keyword">int</span> end<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">int</span> dad<span class="token operator">=</span>start<span class="token punctuation">,</span>son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>son<span class="token operator">&lt;=</span>end<span class="token punctuation">)</span>
+  	<span class="token punctuation">&#123;</span>
+  	     <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>son<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">></span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> son<span class="token operator">+</span><span class="token number">1</span><span class="token operator">&lt;=</span>end<span class="token punctuation">)</span> son<span class="token operator">++</span><span class="token punctuation">;</span>
+  	     <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>dad<span class="token punctuation">]</span><span class="token operator">>=</span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token punctuation">;</span>
+  	     std<span class="token double-colon punctuation">::</span><span class="token function">swap</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token punctuation">,</span>s<span class="token punctuation">[</span>dad<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	     dad<span class="token operator">=</span>son<span class="token punctuation">;</span>
+  	     son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+  	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">void</span> <span class="token function">HeapSort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> len<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>len<span class="token operator">/</span><span class="token number">2</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">>=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">--</span><span class="token punctuation">)</span>
+  	<span class="token punctuation">&#123;</span>
+  	     <span class="token function">IfyMaxHeap</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>i<span class="token punctuation">,</span>len<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	<span class="token punctuation">&#125;</span>
+  	
+  	<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>len<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">--</span><span class="token punctuation">)</span>
+  	<span class="token punctuation">&#123;</span>
+  	     std<span class="token double-colon punctuation">::</span><span class="token function">swap</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>s<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	     <span class="token function">IfyMaxHeap</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="复杂度分析-1"><a href="#复杂度分析-1" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><p>时间复杂度O(nlogn) 。第一次构造堆nlogn，第二次到第n次，每次logn，最终和近似 2nlogn，是nlogn级别的。</p>
+<h3 id="反思优化"><a href="#反思优化" class="headerlink" title="反思优化"></a>反思优化</h3><p>问题来了，好像慢了点？就是常数大的问题，quicksort甚至跑出了10s以内的好成绩，那为什么呢。原因就在我们总是把最小数换到堆顶，这样会比较很多次，要不我们把它存到另一个数组，然后把左右节点大的换到堆顶进行维护。</p>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token keyword">void</span> <span class="token function">IfyMaxHeap</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> start<span class="token punctuation">,</span><span class="token keyword">int</span> end<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">int</span> dad<span class="token operator">=</span>start<span class="token punctuation">,</span>son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>son<span class="token operator">&lt;=</span>end<span class="token punctuation">)</span>
+        <span class="token punctuation">&#123;</span>
+             <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>son<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">></span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> son<span class="token operator">+</span><span class="token number">1</span><span class="token operator">&lt;=</span>end<span class="token punctuation">)</span> son<span class="token operator">++</span><span class="token punctuation">;</span>
+             <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>dad<span class="token punctuation">]</span><span class="token operator">>=</span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token punctuation">;</span>
+             std<span class="token double-colon punctuation">::</span><span class="token function">swap</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token punctuation">,</span>s<span class="token punctuation">[</span>dad<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+             dad<span class="token operator">=</span>son<span class="token punctuation">;</span>
+             son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">void</span> <span class="token function">IfyMaxHeapAdd</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> start<span class="token punctuation">,</span><span class="token keyword">int</span> end<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">int</span> dad<span class="token operator">=</span>start<span class="token punctuation">,</span>son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>son<span class="token operator">&lt;=</span>end<span class="token punctuation">)</span>
+        <span class="token punctuation">&#123;</span>
+             <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">[</span>son<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">></span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> son<span class="token operator">+</span><span class="token number">1</span><span class="token operator">&lt;=</span>end<span class="token punctuation">)</span> son<span class="token operator">++</span><span class="token punctuation">;</span>
+             s<span class="token punctuation">[</span>dad<span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token punctuation">;</span>
+             s<span class="token punctuation">[</span>son<span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">-</span><span class="token number">1000000</span><span class="token punctuation">;</span>
+             dad<span class="token operator">=</span>son<span class="token punctuation">;</span>
+             son<span class="token operator">=</span>dad<span class="token operator">*</span><span class="token number">2</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">void</span> <span class="token function">HeapSortAdd</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token operator">*</span> s<span class="token punctuation">,</span><span class="token keyword">int</span> len<span class="token punctuation">,</span><span class="token keyword">int</span><span class="token operator">*</span> temp<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>len<span class="token operator">/</span><span class="token number">2</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">>=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">--</span><span class="token punctuation">)</span>
+        <span class="token punctuation">&#123;</span>
+             <span class="token function">IfyMaxHeap</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span>i<span class="token punctuation">,</span>len<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span>len<span class="token punctuation">;</span>i<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">--</span><span class="token punctuation">)</span>
+        <span class="token punctuation">&#123;</span>
+             temp<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>s<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+             <span class="token function">IfyMaxHeapAdd</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>len<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="速度对比-1"><a href="#速度对比-1" class="headerlink" title="速度对比"></a>速度对比</h3><p>使用 10000 组10000个随机数。（运行环境有别于上面的测试环境）</p>
+<table>
+<thead>
+<tr>
+<th align="center">单位: ms</th>
+<th align="center">HeapSort</th>
+<th align="center">HeapSortAdd</th>
+<th align="center">MergeSort</th>
+<th align="center">Shell Knuth</th>
+<th align="center">Quicksort</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">时间</td>
+<td align="center">22146.036</td>
+<td align="center">12042.721</td>
+<td align="center">12320.506</td>
+<td align="center">11911.036</td>
+<td align="center">11750.599</td>
+</tr>
+</tbody></table>
+<p>​    发现常数下来了. <span class="heimu">煞笔我居然因为一个小错误写了一下午.</span></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​    排序算法基本就结束了, 而公认的最高效的还是快速排序, 其他或多或少都有些缺点. 如果允许还是尽量使用 STL 里的 sort , 毕竟结构体的排序…</p>
+</div><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span><div id="reward-comment">I'm so cute. Please give me money.</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://p.130014.xyz/2020/12/03/1173CB0E-9A44-45A6-8991-515958F4ADBB.jpg"><img loading="lazy" src="https://p.130014.xyz/2020/12/03/1173CB0E-9A44-45A6-8991-515958F4ADBB.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-alipay-line"></use></svg></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://p.130014.xyz/2020/12/03/9AACAEEE-03D9-4794-BAC6-2EE2965384DF.jpg"><img loading="lazy" src="https://p.130014.xyz/2020/12/03/9AACAEEE-03D9-4794-BAC6-2EE2965384DF.jpg" alt="QQ 支付" title="QQ 支付"></a><div><span style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://p.130014.xyz/2020/12/03/25F401EB-6BED-4A00-BAD2-DF69A9011C8A.jpg"><img loading="lazy" src="https://p.130014.xyz/2020/12/03/25F401EB-6BED-4A00-BAD2-DF69A9011C8A.jpg" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat-pay-line"></use></svg></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>Inzam</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="http://www.inzamz.top/2020/XCPC/StudyNotes/SortAlgorithm/" title="排序算法">http://www.inzamz.top/2020/XCPC/StudyNotes/SortAlgorithm/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> 许可协议。</li></ul></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2020/Tools/Graphviz/" rel="prev" title="Graphviz 的使用"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-left-s-line"></use></svg><span class="post-nav-text">Graphviz 的使用</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2020/XCPC/StudyNotes/Quicksort/" rel="next" title="快速排序"><span class="post-nav-text">快速排序</span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>要不要和我说些什么？</span><br><a class="hty-button hty-button--raised" id="github-issues" target="_blank" rel="noopener" href="https://github.com/InzamZ/inzamz.github.io/issues?q=is:issue+排序算法">GitHub Issues</a></div><div id="valine-container"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js", () => {
+  const valineConfig = {"enable":true,"appId":"Llj1MKoKOybvfqLYNAlxUeUs-MdYXbMMI","appKey":"d1gysunv9oLlyLR06QjaIHgF","placeholder":"欢迎大家友好地发起评论和建议,本蒟蒻一定虚心学习","avatar":null,"pageSize":10,"visitor":true,"highlight":true,"recordIP":true,"enableQQ":true,"meta":["nick","mail","link"],"lang":"zh-cn","el":"#valine-container"}
+  valineConfig.path = "/2020/XCPC/StudyNotes/SortAlgorithm/"
+  new Valine(valineConfig)
+}, window.Valine);</script></div></main><footer class="sidebar-translate" id="footer"><div class="beian"><a rel="noopener" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021032030号</a></div><div class="copyright"><span>&copy; 2020 – 2021 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> Inzam</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.6.3</span></div><div class="live_time"><span>本博客已进行壁外调查</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-10-08T17:00:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = " " + passDay + " 天 " + passHour + " 小时 " + passMinute + " 分 " + passSecond + " 秒";
+}
+blog_live_time();
+</script></div><div class="footer-custom-text"><a style="display:inline-block" target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云"><img height="30" src="https://img.inzamz.top/links/upyun.png" alt="upyun"/></a></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#93A3B3" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search-line"></use></svg></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script src="/js/search/local-search.js" defer></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-close-line"></use></svg></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="搜索..." value=""></div><div id="local-search-result"></div></div><script>const date = new Date();
+const today = (date.getMonth() + 1) + "-" + date.getDate()
+const mourn_days = ["4-4","12-13"]
+if (mourn_days.includes(today)) {
+  document.documentElement.style.filter = "grayscale(1)";
+}</script><div class="aplayer no-destroy" id="aplayer" data-id="2322278166" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay data-theme="#93A3B3" data-loop="all" data-order="random" data-preload="auto" data-volume="0.7" data-mutex data-lrctype="0" data-listmaxheight="340px" data-storagename="metingjs"></div></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"https://cdn.jsdelivr.net/gh/InzamZ/inzamz.github.io@main/live2d-widget-model-kutori/kutori.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":true},"react":{"opacity":0.9},"dialog":{"enable":true,"hitokoto":true},"log":false});</script></body></html>

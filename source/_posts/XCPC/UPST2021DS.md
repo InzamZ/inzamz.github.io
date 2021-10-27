@@ -1,8 +1,8 @@
 ---
 title: 2021 UESTC ICPC Training for Data Structures
 categories:
-	- XCPC
-    - 学习笔记
+  - XCPC
+  - 其他比赛
 tags:
   - 线段树
   - 主席树
