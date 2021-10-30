@@ -7,7 +7,3 @@ fi
 git add -A
 git commit -m "$info1"
 git push origin hexo
-
-hexo clean
-hexo g -d
-

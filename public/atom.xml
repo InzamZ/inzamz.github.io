@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-10-23T10:02:10.639Z</updated>
+  <updated>2021-10-28T15:43:58.000Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ECS使用记录</title>
+    <link href="http://www.inzamz.top/2021/Notes/ECS%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
+    <id>http://www.inzamz.top/2021/Notes/ECS%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-10-28T15:42:58.000Z</published>
+    <updated>2021-10-28T15:43:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;因为第一次使用以及自己对这方面的了解欠缺，于是记录一下使用过程中的踩坑。大部分教程均来自阿里云开发者学堂或者其文档，侵权请联系站长删除。&lt;/p&gt;
+&lt;p&gt;当然这只是个预告，以及用于测试Mirai Rss Sub…&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="http://www.inzamz.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="ECS云服务器" scheme="http://www.inzamz.top/tags/ECS%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>网络课程简介(笔记)</title>
@@ -485,27 +507,6 @@
     <category term="模拟" scheme="http://www.inzamz.top/tags/%E6%A8%A1%E6%8B%9F/"/>
     
     <category term="数论" scheme="http://www.inzamz.top/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最大公约数</title>
-    <link href="http://www.inzamz.top/2020/XCPC/StudyNotes/Gcd/"/>
-    <id>http://www.inzamz.top/2020/XCPC/StudyNotes/Gcd/</id>
-    <published>2020-12-19T14:12:28.000Z</published>
-    <updated>2021-10-23T09:47:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最大公约数问题不只是简单的抄模版，主要是灵活利用其中的思想。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
-    
-    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="GCD" scheme="http://www.inzamz.top/tags/GCD/"/>
     
   </entry>
   
