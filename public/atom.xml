@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-10-30T16:47:53.000Z</updated>
+  <updated>2021-11-19T06:11:02.658Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -17,14 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Telegram-Bot-Alice 开发日志</title>
+    <link href="http://www.inzamz.top/2021/Log/TelegramBot/"/>
+    <id>http://www.inzamz.top/2021/Log/TelegramBot/</id>
+    <published>2021-11-19T06:10:51.000Z</published>
+    <updated>2021-11-19T06:11:02.658Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;在折腾了一下Mirai后，尝试自己开发插件时有点困难，到后来有机会接触到hezu群，随后入手了美区Apple One，接下来注定是长期使用了，于是开始注意到telegram</summary>
+        
+      
+    
+    
+    
+    <category term="开发日志" scheme="http://www.inzamz.top/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="TelegramBot" scheme="http://www.inzamz.top/tags/TelegramBot/"/>
+    
+    <category term="Python3" scheme="http://www.inzamz.top/tags/Python3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>systemctl服务</title>
+    <link href="http://www.inzamz.top/2021/System/Systemctl/"/>
+    <id>http://www.inzamz.top/2021/System/Systemctl/</id>
+    <published>2021-11-07T13:30:24.000Z</published>
+    <updated>2021-11-07T13:30:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Linux系统" scheme="http://www.inzamz.top/categories/Linux%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="systemctl" scheme="http://www.inzamz.top/tags/systemctl/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Beyond！超越生死的对话</title>
     <link href="http://www.inzamz.top/2021/View/Beyond/"/>
     <id>http://www.inzamz.top/2021/View/Beyond/</id>
     <published>2021-10-30T13:51:53.000Z</published>
-    <updated>2021-10-30T16:47:53.000Z</updated>
+    <updated>2021-11-19T05:47:53.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;王勃满腹经纶，写下滕王阁序，却在途中离世；家驹写下了海阔天空，却匆匆离世，我只能轻叹天妒英才。&lt;br&gt;1996年3月6日的香港红磡，最后那一首海阔天空，四个人，都在诉说着自己矢志不渝的信念。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;王勃满腹经纶，写下滕王阁序，却在途中离世；家驹写下了海阔天空，却匆匆离世，我只能轻叹天妒英才。&lt;br&gt;1996年3月6日的香港红磡，最后那一首海阔天空，四个人，都在诉说着自己矢志不渝的信念。&lt;/p&gt;
+&lt;p&gt;近来听到一首歌，感慨颇多。&lt;/p&gt;</summary>
     
     
     
@@ -457,52 +512,6 @@
     
     
     <category term="数论" scheme="http://www.inzamz.top/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STL的学习笔记</title>
-    <link href="http://www.inzamz.top/2020/XCPC/StudyNotes/STL/"/>
-    <id>http://www.inzamz.top/2020/XCPC/StudyNotes/STL/</id>
-    <published>2020-12-21T09:11:56.000Z</published>
-    <updated>2021-01-26T08:50:26.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;STL是什么东西 , 我自己手打一个不行吗 ?&lt;/p&gt;
-&lt;img src=&quot;https://img.inzamz.top/expression/zhen-xiang.gif&quot; alt=&quot;zhen-xiang&quot; div align=center/&gt; 
-
-&lt;p&gt;手打模板是什么东西 , STL真香 , yyds . &lt;/p&gt;
-&lt;p&gt;参考自百度百科.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
-    
-    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="STL" scheme="http://www.inzamz.top/tags/STL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>费马小定理与逆元</title>
-    <link href="http://www.inzamz.top/2020/XCPC/StudyNotes/InverseElement/"/>
-    <id>http://www.inzamz.top/2020/XCPC/StudyNotes/InverseElement/</id>
-    <published>2020-12-19T15:33:25.000Z</published>
-    <updated>2021-01-29T13:59:52.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;数论大数据经常会出现取模运算 , 但是除法很难没法同余 , 所以这里要使用费马小定理 . &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
-    
-    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="逆元" scheme="http://www.inzamz.top/tags/%E9%80%86%E5%85%83/"/>
     
   </entry>
   
