@@ -2,7 +2,7 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/font_2261522_jtdfz3yn99a.js
+      iconfont: //at.alicdn.com/t/font_2261522_rb0av2h7g5e.js
 
 colors:
   primary: "#93A3B3"
@@ -356,7 +356,11 @@ search:
 #     # min_depth:
 #     # list_number:
 
-   
+types:
+  feishu:
+    color: "#0088CC"
+    icon: icon-feishu-fill
+
 say:
   enable: true
   # api: https://say.elpsy.cn/sentences.json

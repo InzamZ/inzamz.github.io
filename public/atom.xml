@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-11-19T06:11:02.658Z</updated>
+  <updated>2021-11-25T06:07:13.861Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cisco 网络简介课程笔记</title>
+    <link href="http://www.inzamz.top/2021/Notes/CiscoITN/"/>
+    <id>http://www.inzamz.top/2021/Notes/CiscoITN/</id>
+    <published>2021-11-25T05:36:47.849Z</published>
+    <updated>2021-11-25T06:07:13.861Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在这是 Cisco 的 网络简介课程的学习笔记 , 算是自己在网络学习的入门课程 . 前期的笔记由于疏忽丢失了 , 并且没有备份 , 于是只有后面部分了 . 如果有时间会考虑补上 . &lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Telegram-Bot-Alice 开发日志</title>
@@ -491,27 +506,6 @@
     
     
     <category term="博客" scheme="http://www.inzamz.top/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>缺失的数字</title>
-    <link href="http://www.inzamz.top/2020/XCPC/StudyNotes/lackingnumber/"/>
-    <id>http://www.inzamz.top/2020/XCPC/StudyNotes/lackingnumber/</id>
-    <published>2020-12-23T14:38:11.000Z</published>
-    <updated>2021-10-23T09:47:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;我在查找费马小定理的资料时 , 发现了这篇文章 . 我觉得很有趣 , 就学习一下 .&lt;br&gt;转载参考自 &lt;a href=&quot;https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html&quot;&gt;https://www.cnblogs.com/tupx/archive/2012/04/29/2476000.html&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
-    
-    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数论" scheme="http://www.inzamz.top/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   

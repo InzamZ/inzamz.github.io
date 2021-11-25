@@ -1,6 +1,6 @@
 ---
-title: CiscoITN
-types: feishu
+title: Cisco 网络简介课程笔记
+type: feishu
 url: https://uestc.feishu.cn/docs/doccndnlBH9C1TRJWTahWR5BxxH
 ---
 
