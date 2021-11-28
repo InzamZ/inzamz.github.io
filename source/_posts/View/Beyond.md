@@ -1,12 +1,12 @@
 ---
 title: Beyond！超越生死的对话
+icon: icon-disc-line
 categories:
   - View
 tags:
   - 乐评
 date: 2021-10-30 21:51:53
 updated: 2021-11-19 13:47:53
-icon: icon-music-line
 aplayer: true
 ---
 

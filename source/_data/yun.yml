@@ -2,7 +2,7 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/font_2261522_rb0av2h7g5e.js
+      iconfont: //at.alicdn.com/t/font_2261522_jugp0qka09d.js
 
 colors:
   primary: "#93A3B3"
