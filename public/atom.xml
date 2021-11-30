@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-11-25T06:12:59.000Z</updated>
+  <updated>2021-11-30T08:50:54.000Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Deltix Round, Autumn 2021</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/</id>
+    <published>2021-11-30T08:50:54.000Z</published>
+    <updated>2021-11-30T08:50:54.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;打完蓝桥杯校赛，这阶段的各种忙也是告一段落了。于是当晚抽空打了这场比赛，还行吧，就是写代码生疏了点，速度有点慢。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Baekho__Railgun-PUPIL%201294-008000.svg?style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/Baekho_Railgun&quot; alt=&quot;OldRating&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Baekho__Railgun-PUPIL%201399-008000.svg?style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/Baekho_Railgun&quot; alt=&quot;NewRating&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+    
+    
+    <category term="并查集" scheme="http://www.inzamz.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+    <category term="字符串" scheme="http://www.inzamz.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="暴力" scheme="http://www.inzamz.top/tags/%E6%9A%B4%E5%8A%9B/"/>
+    
+  </entry>
   
   <entry>
     <title>Cisco 网络简介课程笔记</title>
@@ -487,25 +518,6 @@
     
     
     <category term="2020" scheme="http://www.inzamz.top/tags/2020/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BaiduUrls</title>
-    <link href="http://www.inzamz.top/2020/AboutBlog/BaiduUrls/"/>
-    <id>http://www.inzamz.top/2020/AboutBlog/BaiduUrls/</id>
-    <published>2020-12-23T15:07:51.000Z</published>
-    <updated>2021-10-23T09:47:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;基于 hexo 的博客比较麻烦 , 百度无法自动收录 , 所以需要自己操作 . 记录一下到时方便查阅 , 参考自博文 &lt;a href=&quot;https://blog.csdn.net/weixin_43662543/article/details/104647173&quot;&gt;https://blog.csdn.net/weixin_43662543/article/details/104647173&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客相关" scheme="http://www.inzamz.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客" scheme="http://www.inzamz.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
