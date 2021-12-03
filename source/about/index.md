@@ -26,6 +26,6 @@ date: 2020-12-02 16:16:15
 
 # 不管怎么努力都很菜的ACMer
 
-![MYCodeforces](https://img.shields.io/badge/Baekho_Railgun-Newbie%20%201144-D5CFCE.svg?longCache=true&style=for-the-badge&logo=Codeforces&link=https://codeforces.com/profile/Baekho_Railgun)
+![MYCodeforces](https://ecs.inzamz.top/cfrating.php?user=Baekho_Railgun)
 
-![MyLuogu](https://luogu.vercel.app/practice?id=50097)
+![MyLuogu](https://luogu.wao3.cn/api/practice?id=50097&dark_mode=true&card_width=771)
