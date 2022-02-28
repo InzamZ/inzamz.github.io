@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-11-30T08:50:54.000Z</updated>
+  <updated>2021-12-06T07:47:59.000Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Educational Codeforces Round 118</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/</id>
+    <published>2021-12-05T14:27:53.000Z</published>
+    <updated>2021-12-06T07:47:59.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;二分的时候边界没有处理好，犹豫了一段时间，其他并没有什么问题。最后的D题少考虑了一种情况，但是当时时间不够也确实没考虑到也就认了。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Deltix Round, Autumn 2021</title>
@@ -495,30 +523,6 @@
     
     
     <category term="个人经历" scheme="http://www.inzamz.top/tags/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Goodbye2020</title>
-    <link href="http://www.inzamz.top/2021/Life/Goodbye2020/"/>
-    <id>http://www.inzamz.top/2021/Life/Goodbye2020/</id>
-    <published>2020-12-31T17:12:57.000Z</published>
-    <updated>2020-12-31T17:12:57.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;至于真相，一定更在意料之外——自古皆然。  阿瑟·克拉克 《太空漫游：2001》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这一年确实经历了很多，感慨万千。就像上面这句话，然后先挖个坑，会填的。&lt;/p&gt;
-&lt;p&gt;毕竟作为中国人，真正的过年就是除夕夜嘛。所以总结放在除夕夜了。而且我有一个大胆的想法，今年试试守岁？&lt;del&gt;感觉可以。&lt;/del&gt; 因为不可抗力的因素，我怕守个岁这个年估计就要躺在床上了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://img.inzamz.top/expression/stop-abusing.jpg&quot; alt=&quot;stop-abusing&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="关于我有个三次元分身这档事" scheme="http://www.inzamz.top/categories/%E5%85%B3%E4%BA%8E%E6%88%91%E6%9C%89%E4%B8%AA%E4%B8%89%E6%AC%A1%E5%85%83%E5%88%86%E8%BA%AB%E8%BF%99%E6%A1%A3%E4%BA%8B/"/>
-    
-    
-    <category term="2020" scheme="http://www.inzamz.top/tags/2020/"/>
     
   </entry>
   

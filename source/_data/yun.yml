@@ -374,3 +374,7 @@ say:
     api: https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=k&encode=json
 
 baidu_push: true
+
+katex:
+  copy_tex: true
+  global: true
