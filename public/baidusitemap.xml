@@ -1,187 +1,1099 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/</loc>
-    <lastmod>2021-12-06</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/</loc>
-    <lastmod>2021-11-30</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/Notes/CiscoITN/</loc>
-    <lastmod>2021-11-25</lastmod>
-  </url>
+
+    
+    
+    
   <url>
     <loc>http://www.inzamz.top/2021/Log/TelegramBot/</loc>
-    <lastmod>2021-11-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/View/Beyond/</loc>
-    <lastmod>2021-11-19</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/System/Systemctl/</loc>
-    <lastmod>2021-11-07</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/Notes/ECS%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2021-10-28</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2021/View/ShingekinoKyoji/</loc>
-    <lastmod>2021-10-27</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/SparseTable/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/BinaryIndexedTree/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
-  <url>
-    <loc>http://www.inzamz.top/2020/XCPC/Atcoder/ABC182/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2022-03-05T13:35:01.483Z</lastmod>
+    <data>
+        <display>
+        <title>Telegram-Bot-Alice 开发日志</title>
+        <pubTime>2021-11-19T06:10:51.000Z</pubTime>
+        
+        <tag>TelegramBot </tag>
+         
+        <tag>Python3 </tag>
+         
+         
+           
+             
+              <breadCrumb title="开发日志" url="http://www.inzamz.top/categories/%25E5%25BC%2580%25E5%258F%2591%25E6%2597%25A5%25E5%25BF%2597/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/Notes/Introduction-to-Networks/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2022-03-05T13:35:01.483Z</lastmod>
+    <data>
+        <display>
+        <title>网络课程简介(笔记)</title>
+        <pubTime>2021-07-04T12:48:58.000Z</pubTime>
+        
+        <tag>网络 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2020/XCPC/Atcoder/ABC182/</loc>
+    <lastmod>2022-03-05T13:35:01.483Z</lastmod>
+    <data>
+        <display>
+        <title>Atcoder Beginner Contect 182</title>
+        <pubTime>2020-11-10T15:59:59.000Z</pubTime>
+        
+        <tag>剪枝 </tag>
+         
+        <tag>暴搜 </tag>
+         
+        <tag>dfs </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/BinaryIndexedTree/</loc>
+    <lastmod>2022-03-05T13:35:01.483Z</lastmod>
+    <data>
+        <display>
+        <title>树状数组</title>
+        <pubTime>2020-11-30T01:33:52.000Z</pubTime>
+        
+        <tag>树状数组 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/SparseTable/</loc>
+    <lastmod>2022-03-05T13:35:01.483Z</lastmod>
+    <data>
+        <display>
+        <title>ST表</title>
+        <pubTime>2020-11-30T01:33:52.000Z</pubTime>
+        
+        <tag>ST表 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
+    
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/</loc>
+    <lastmod>2021-12-06T07:47:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Educational Codeforces Round 118</title>
+        <pubTime>2021-12-05T14:27:53.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/</loc>
+    <lastmod>2021-11-30T08:50:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>Deltix Round, Autumn 2021</title>
+        <pubTime>2021-11-30T08:50:54.000Z</pubTime>
+        
+        <tag>并查集 </tag>
+         
+        <tag>贪心 </tag>
+         
+        <tag>动态规划 </tag>
+         
+        <tag>字符串 </tag>
+         
+        <tag>暴力 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/Notes/CiscoITN/</loc>
+    <lastmod>2021-11-25T06:12:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Cisco 网络简介课程笔记</title>
+        <pubTime>2021-11-25T06:00:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/View/Beyond/</loc>
+    <lastmod>2021-11-19T05:47:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>Beyond！超越生死的对话</title>
+        <pubTime>2021-10-30T13:51:53.000Z</pubTime>
+        
+        <tag>乐评 </tag>
+         
+         
+           
+             
+              <breadCrumb title="View" url="http://www.inzamz.top/categories/View/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/System/Systemctl/</loc>
+    <lastmod>2021-11-07T13:30:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>systemctl服务</title>
+        <pubTime>2021-11-07T13:30:24.000Z</pubTime>
+        
+        <tag>systemctl </tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux系统" url="http://www.inzamz.top/categories/Linux%25E7%25B3%25BB%25E7%25BB%259F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/Notes/ECS%25E4%25BD%25BF%25E7%2594%25A8%25E8%25AE%25B0%25E5%25BD%2595/</loc>
+    <lastmod>2021-10-28T15:43:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>ECS使用记录</title>
+        <pubTime>2021-10-28T15:42:58.000Z</pubTime>
+        
+        <tag>ECS云服务器 </tag>
+         
+         
+           
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.inzamz.top/2021/View/ShingekinoKyoji/</loc>
+    <lastmod>2021-10-27T11:00:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>进击的巨人</title>
+        <pubTime>2021-07-04T07:55:47.000Z</pubTime>
+        
+        <tag>漫评 </tag>
+         
+         
+           
+             
+              <breadCrumb title="View" url="http://www.inzamz.top/categories/View/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/Tools/Graphviz/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T10:01:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Graphviz 的使用</title>
+        <pubTime>2020-11-02T14:50:29.000Z</pubTime>
+        
+        <tag>绘图 </tag>
+         
+         
+           
+             
+              <breadCrumb title="各种好用的工具" url="http://www.inzamz.top/categories/%25E5%2590%2584%25E7%25A7%258D%25E5%25A5%25BD%25E7%2594%25A8%25E7%259A%2584%25E5%25B7%25A5%25E5%2585%25B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/AboutBlog/BaiduUrls/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>BaiduUrls</title>
+        <pubTime>2020-12-23T15:07:51.000Z</pubTime>
+        
+        <tag>博客 </tag>
+         
+         
+           
+             
+              <breadCrumb title="博客相关" url="http://www.inzamz.top/categories/%25E5%258D%259A%25E5%25AE%25A2%25E7%259B%25B8%25E5%2585%25B3/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/UEST-CPC/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>UEST-CPC(未完成)</title>
+        <pubTime>2020-12-08T07:43:01.000Z</pubTime>
+        
+        <tag>BST </tag>
+         
+        <tag>string </tag>
+         
+        <tag>堆 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="其他比赛" url="http://www.inzamz.top/categories/XCPC/%25E5%2585%25B6%25E4%25BB%2596%25E6%25AF%2594%25E8%25B5%259B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1451_R685/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Codeforces Round 685 (Div. 2)</title>
+        <pubTime>2020-11-24T11:56:25.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+        <tag>字符串 </tag>
+         
+        <tag>平面几何 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1452_EDU98/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Educational Codeforces Round 98 (Rated for Div. 2)</title>
+        <pubTime>2020-11-20T05:04:42.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1459_R691/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Codeforces Round 691 (Div. 2)</title>
+        <pubTime>2020-12-19T15:10:11.000Z</pubTime>
+        
+        <tag>模拟 </tag>
+         
+        <tag>数论 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1462_R690/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Codeforces Round 690 (Div. 3)</title>
+        <pubTime>2020-12-18T14:04:09.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+        <tag>模拟 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/Gcd/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>最大公约数</title>
+        <pubTime>2020-12-19T14:12:28.000Z</pubTime>
+        
+        <tag>GCD </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/Kmp/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>KMP Algorithm</title>
+        <pubTime>2020-11-25T23:35:26.000Z</pubTime>
+        
+        <tag>KMP </tag>
+         
+        <tag>BM </tag>
+         
+        <tag>Sunday </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/Quicksort/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>快速排序</title>
+        <pubTime>2020-10-29T14:36:23.000Z</pubTime>
+        
+        <tag>分治 </tag>
+         
+        <tag>排序 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/SegmentTree/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>线段树</title>
+        <pubTime>2020-12-15T08:13:39.000Z</pubTime>
+        
+        <tag>线段树 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/SortAlgorithm/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>排序算法</title>
+        <pubTime>2020-10-31T15:22:18.000Z</pubTime>
+        
+        <tag>分治 </tag>
+         
+        <tag>排序 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/chthollytree/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Chtholly Tree</title>
+        <pubTime>2020-11-18T03:31:22.000Z</pubTime>
+        
+        <tag>暴力 </tag>
+         
+        <tag>区间赋值 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/lackingnumber/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:47:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>缺失的数字</title>
+        <pubTime>2020-12-23T14:38:11.000Z</pubTime>
+        
+        <tag>数论 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1440_R684/</loc>
-    <lastmod>2021-10-23</lastmod>
-  </url>
+    <lastmod>2021-10-23T09:45:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Codeforces Round 684 (Div.2)</title>
+        <pubTime>2020-11-18T14:44:13.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+        <tag>暴力枚举 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/View/MovieHelloWorld/</loc>
-    <lastmod>2021-06-27</lastmod>
-  </url>
+    <lastmod>2021-06-27T15:51:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>你好，世界</title>
+        <pubTime>2021-06-26T15:51:53.000Z</pubTime>
+        
+        <tag>影评 </tag>
+         
+         
+           
+             
+              <breadCrumb title="View" url="http://www.inzamz.top/categories/View/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/IntervalSchedulingProblem/</loc>
-    <lastmod>2021-06-26</lastmod>
-  </url>
+    <lastmod>2021-06-26T15:24:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>区间调度问题</title>
+        <pubTime>2020-11-03T13:08:04.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+        <tag>区间调度 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/UPST2021DS/</loc>
-    <lastmod>2021-05-21</lastmod>
-  </url>
+    <lastmod>2021-05-21T02:59:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>2021 UESTC ICPC Training for Data Structures</title>
+        <pubTime>2021-05-11T06:50:01.000Z</pubTime>
+        
+        <tag>线段树 </tag>
+         
+        <tag>主席树 </tag>
+         
+        <tag>链表 </tag>
+         
+        <tag>单调栈/队列 </tag>
+         
+        <tag>并查集 </tag>
+         
+        <tag>ST表 </tag>
+         
+        <tag>树状数组 </tag>
+         
+        <tag>树链剖分 </tag>
+         
+        <tag>二叉平衡树 </tag>
+         
+        <tag>莫队算法 </tag>
+         
+        <tag>二分答案 </tag>
+         
+        <tag>K-D树 </tag>
+         
+        <tag>扫描线 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="其他比赛" url="http://www.inzamz.top/categories/XCPC/%25E5%2585%25B6%25E4%25BB%2596%25E6%25AF%2594%25E8%25B5%259B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/Atcoder/EducationDPContest/</loc>
-    <lastmod>2021-04-28</lastmod>
-  </url>
+    <lastmod>2021-04-28T13:44:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Atcoder Education DP Contest</title>
+        <pubTime>2021-03-24T02:44:51.000Z</pubTime>
+        
+        <tag>动态规划 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/StudyNotes/DynamicProgramming/</loc>
-    <lastmod>2021-04-27</lastmod>
-  </url>
+    <lastmod>2021-04-27T15:07:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>动态规划合集</title>
+        <pubTime>2021-03-20T02:14:30.000Z</pubTime>
+        
+        <tag>动态规划 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/Atcoder/ARC116/</loc>
-    <lastmod>2021-03-29</lastmod>
-  </url>
+    <lastmod>2021-03-29T04:56:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>AtCoder Regular Contest 116</title>
+        <pubTime>2021-03-29T04:56:48.000Z</pubTime>
+        
+        <tag>数学 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/StudyNotes/DataStructure/</loc>
-    <lastmod>2021-03-22</lastmod>
-  </url>
+    <lastmod>2021-03-22T15:22:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>UESTC PreSummer Training</title>
+        <pubTime>2021-03-21T14:29:15.000Z</pubTime>
+        
+        <tag>数据结构 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/Atcoder/keyence2021/</loc>
-    <lastmod>2021-01-30</lastmod>
-  </url>
+    <lastmod>2021-01-30T08:13:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>KEYENCE Programming Contest 2021</title>
+        <pubTime>2021-01-29T08:01:04.000Z</pubTime>
+        
+        <tag>贪心 </tag>
+         
+        <tag>动态规划 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/InverseElement/</loc>
-    <lastmod>2021-01-29</lastmod>
-  </url>
+    <lastmod>2021-01-29T13:59:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>费马小定理与逆元</title>
+        <pubTime>2020-12-19T15:33:25.000Z</pubTime>
+        
+        <tag>逆元 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/Atcoder/ABC188/</loc>
-    <lastmod>2021-01-27</lastmod>
-  </url>
+    <lastmod>2021-01-27T14:30:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>AtCoder Beginner Contest 188</title>
+        <pubTime>2021-01-25T07:36:30.000Z</pubTime>
+        
+        <tag>队列 </tag>
+         
+        <tag>珂朵莉树 </tag>
+         
+        <tag>map </tag>
+         
+        <tag>差分 </tag>
+         
+        <tag>BFS </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/StudyNotes/STL/</loc>
-    <lastmod>2021-01-26</lastmod>
-  </url>
+    <lastmod>2021-01-26T08:50:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>STL的学习笔记</title>
+        <pubTime>2020-12-21T09:11:56.000Z</pubTime>
+        
+        <tag>STL </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="学习笔记" url="http://www.inzamz.top/categories/XCPC/%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/XCPC/Atcoder/ABC189/</loc>
-    <lastmod>2021-01-25</lastmod>
-  </url>
+    <lastmod>2021-01-25T08:06:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>AtCoder Beginner Contest 189</title>
+        <pubTime>2021-01-24T03:34:44.000Z</pubTime>
+        
+        <tag>ST表 </tag>
+         
+        <tag>贪心 </tag>
+         
+        <tag>动态规划DP </tag>
+         
+        <tag>矩阵 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Atcoder/ARC106/</loc>
-    <lastmod>2021-01-25</lastmod>
-  </url>
+    <lastmod>2021-01-25T08:06:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>AtCoder Regular Contest 106</title>
+        <pubTime>2020-10-29T04:38:45.000Z</pubTime>
+        
+        <tag>dfs </tag>
+         
+        <tag>贪心 </tag>
+         
+        <tag>最大区间调度 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Atcoder" url="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/Life/UESTCaboutexam/</loc>
-    <lastmod>2021-01-24</lastmod>
-  </url>
+    <lastmod>2021-01-24T09:08:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于UESTC的各种考试的备考建议</title>
+        <pubTime>2021-01-24T08:39:25.000Z</pubTime>
+        
+        <tag>考试 </tag>
+         
+         
+           
+             
+              <breadCrumb title="关于我有个三次元分身这档事" url="http://www.inzamz.top/categories/%25E5%2585%25B3%25E4%25BA%258E%25E6%2588%2591%25E6%259C%2589%25E4%25B8%25AA%25E4%25B8%2589%25E6%25AC%25A1%25E5%2585%2583%25E5%2588%2586%25E8%25BA%25AB%25E8%25BF%2599%25E6%25A1%25A3%25E4%25BA%258B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/about/site.html</loc>
-    <lastmod>2021-01-23</lastmod>
-  </url>
+    <lastmod>2021-01-23T14:33:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>Welcome Home! Chtholly!</title>
+        <pubTime>2020-10-08T04:00:00.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/XCPC/Codeforces/CF1463_EDU100/</loc>
-    <lastmod>2021-01-23</lastmod>
-  </url>
+    <lastmod>2021-01-23T14:28:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>Educational Codeforces Round 100 (Rated for Div. 2)</title>
+        <pubTime>2020-12-18T12:52:29.000Z</pubTime>
+        
+        <tag>二分查找 </tag>
+         
+         
+           
+             
+              <breadCrumb title="XCPC" url="http://www.inzamz.top/categories/XCPC/"/>
+          
+             
+              <breadCrumb title="Codeforces" url="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/Life/daily210105/</loc>
-    <lastmod>2021-01-21</lastmod>
-  </url>
+    <lastmod>2021-01-21T01:41:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于我去看病的感想以及想吐槽校医院的这档事</title>
+        <pubTime>2021-01-05T09:27:05.000Z</pubTime>
+        
+        <tag>个人经历 </tag>
+         
+         
+           
+             
+              <breadCrumb title="关于我有个三次元分身这档事" url="http://www.inzamz.top/categories/%25E5%2585%25B3%25E4%25BA%258E%25E6%2588%2591%25E6%259C%2589%25E4%25B8%25AA%25E4%25B8%2589%25E6%25AC%25A1%25E5%2585%2583%25E5%2588%2586%25E8%25BA%25AB%25E8%25BF%2599%25E6%25A1%25A3%25E4%25BA%258B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2021/Life/Goodbye2020/</loc>
-    <lastmod>2020-12-31</lastmod>
-  </url>
+    <lastmod>2020-12-31T17:12:57.000Z</lastmod>
+    <data>
+        <display>
+        <title>Goodbye2020</title>
+        <pubTime>2020-12-31T17:12:57.000Z</pubTime>
+        
+        <tag>2020 </tag>
+         
+         
+           
+             
+              <breadCrumb title="关于我有个三次元分身这档事" url="http://www.inzamz.top/categories/%25E5%2585%25B3%25E4%25BA%258E%25E6%2588%2591%25E6%259C%2589%25E4%25B8%25AA%25E4%25B8%2589%25E6%25AC%25A1%25E5%2585%2583%25E5%2588%2586%25E8%25BA%25AB%25E8%25BF%2599%25E6%25A1%25A3%25E4%25BA%258B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.inzamz.top/2020/Tools/Exmail/</loc>
-    <lastmod>2020-12-13</lastmod>
-  </url>
-</urlset> 
+    <lastmod>2020-12-13T13:01:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>自定义域名邮箱</title>
+        <pubTime>2020-12-13T13:01:21.000Z</pubTime>
+        
+        <tag>域名邮箱 </tag>
+         
+        <tag>Github Pages </tag>
+         
+         
+           
+             
+              <breadCrumb title="各种好用的工具" url="http://www.inzamz.top/categories/%25E5%2590%2584%25E7%25A7%258D%25E5%25A5%25BD%25E7%2594%25A8%25E7%259A%2584%25E5%25B7%25A5%25E5%2585%25B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
