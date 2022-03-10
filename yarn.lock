@@ -3387,9 +3387,9 @@ levn@~0.3.0:
     type-check "~0.3.2"
 
 libnpmaccess@*:
-  version "6.0.0"
-  resolved "https://registry.npmmirror.com/libnpmaccess/-/libnpmaccess-6.0.0.tgz#a34fdfbf50be2f06d7deef0717becfc0b41e2268"
-  integrity sha512-D9B2aPxHoA/ciQnIhLcM0l5bFtbFxe5ck9gQFFcEmkzXbMCPoTy56n23Z+6sNijA0hlG7bf9v5KT0l1t9jG0cQ==
+  version "6.0.1"
+  resolved "https://registry.npmmirror.com/libnpmaccess/-/libnpmaccess-6.0.1.tgz#76a67a84590be2143d8d05ee1ca3d3f332e2a9bb"
+  integrity sha512-IMQEFBpiBOODmON0XXNuDx5aAGw2EE1PuDsWOpZzFrlTCNDkINGDarGGRyunOQFapNjZd18UeApZjEJosLaXyQ==
   dependencies:
     aproba "^2.0.0"
     minipass "^3.1.1"
@@ -3406,9 +3406,9 @@ libnpmconfig@^1.2.1:
     ini "^1.3.5"
 
 libnpmdiff@*:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/libnpmdiff/-/libnpmdiff-4.0.0.tgz#be1e1031d23e650707d6702cb9e4c8295dabfe00"
-  integrity sha512-VXOQGwtcx4kOGOHIYasRi6m1a+FGTPLv0463DzkbNR5P7m4GGY9aXmWE95ZE2JkFy+VpWmHjS/62pDB6CxIcKw==
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/libnpmdiff/-/libnpmdiff-4.0.1.tgz#929f1ae42739d4d9722ee6159f54778f4dd17faf"
+  integrity sha512-qZtpjH9R0RgWar3BfwkOWBIRsbtfNqcSAFWED0PzWIKp2d2qAEt4adGDpmnd4CKxujyqPrVHcqER3OqbqjqqFA==
   dependencies:
     "@npmcli/disparity-colors" "^1.0.1"
     "@npmcli/installed-package-contents" "^1.0.7"
@@ -3420,9 +3420,9 @@ libnpmdiff@*:
     tar "^6.1.0"
 
 libnpmexec@*:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/libnpmexec/-/libnpmexec-4.0.0.tgz#db0fcd2210f42578eca92110719cb3c757a14687"
-  integrity sha512-1aZ4ujSC3gJ/ADp2cwsQcb8zNlYO1QaA4jnELG3d1tuKLQkD4XX9IQNHH1Ac2DsvM7WZ5oHWjg9PUV0ceHNczQ==
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/libnpmexec/-/libnpmexec-4.0.1.tgz#02755c03fd2566ed9d8857dfebf5183d0967a982"
+  integrity sha512-hax7tnZwx0RVoo4Ds0X9aItzGAibbbiOcxXox1OSCOOFeM56rRsCJh/Izog8/8X8/6kMaybWS5reDIC0oPxX7g==
   dependencies:
     "@npmcli/arborist" "^5.0.0"
     "@npmcli/ci-detect" "^2.0.0"
@@ -3445,25 +3445,25 @@ libnpmfund@*:
     "@npmcli/arborist" "^5.0.0"
 
 libnpmhook@*:
-  version "8.0.0"
-  resolved "https://registry.npmmirror.com/libnpmhook/-/libnpmhook-8.0.0.tgz#94c22e2c39d81df778043a6372fd0954fddb09bc"
-  integrity sha512-RsY9jqbhscdfPVKDB+D2sCAeSRVpLY0rQqZIowbZYm684198ghXc674wRxUxoF/1Q/FK/O6g0suRmNTtfqW4hw==
+  version "8.0.1"
+  resolved "https://registry.npmmirror.com/libnpmhook/-/libnpmhook-8.0.1.tgz#2f6fab6a5700002fd5681461897cc23ecf835669"
+  integrity sha512-4kdii7Krt8ii9ZLP/xiU1e4Al2NtnOagVQ3/klL3+ZVBU9DVioMsr+7HB3UGdgohjwTrUSN0XhdeQJdoDjvEdg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
 
 libnpmorg@*:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/libnpmorg/-/libnpmorg-4.0.0.tgz#80e240e8ecadc7068874524f264835518a65065a"
-  integrity sha512-VYNgGdGgVufhDCaFcE1P1UEODPk5p9hIir73cWtYEiz2IXCXgrfKYcH0pR5B4d6dTVtki6TacIi2ANYwCqotYg==
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/libnpmorg/-/libnpmorg-4.0.1.tgz#54c9c48d9b3b1ccb8def3498ee379ea3e1e9633e"
+  integrity sha512-IVbX21PpGIWK0HEpOGv2KNS89RnwYSAuAtrKX+ka7SC7HZSHfLS7gJ7es+B+YSObV4THmCO8qySbNN8IbOqSSg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
 
 libnpmpack@*:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/libnpmpack/-/libnpmpack-4.0.0.tgz#e67d9a0ee688d7b76ea8730be8ffb150ca8e55e5"
-  integrity sha512-5nz8xEJMFj+C9EtmgY00xwbRzOlUC4yNiTulLet5YUPNJL5euJ7aK0piUWEznfN2bPwghX+Jv8h+QNGTL3I8MA==
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/libnpmpack/-/libnpmpack-4.0.1.tgz#c98111d92e440cd1fa18a0ab6384087df65947e4"
+  integrity sha512-Ozd/Hz3A+yrE3xhTc/bnoA0lnZb2HfQx0KP0sj6bXHe46hyCsmWCh8xuFXqtnH5FLwAhqI+kvd9HbV6DFACkFw==
   dependencies:
     "@npmcli/run-script" "^3.0.0"
     npm-package-arg "^9.0.0"
@@ -3481,24 +3481,24 @@ libnpmpublish@*:
     ssri "^8.0.1"
 
 libnpmsearch@*:
-  version "5.0.0"
-  resolved "https://registry.npmmirror.com/libnpmsearch/-/libnpmsearch-5.0.0.tgz#fd8926ac6548df4e8254e25585417a554674a88f"
-  integrity sha512-DKbQzyxQY3oBVi22ey49v9sDOk8qI1cGcQDLBk4Hf8PNUXLgOHSMFzmwUuDDzPOwrkNMuGud5GuAh0cw/6rwNw==
+  version "5.0.1"
+  resolved "https://registry.npmmirror.com/libnpmsearch/-/libnpmsearch-5.0.1.tgz#9b7f0f651e95e1419e40a4bb90e944650549b7de"
+  integrity sha512-O//WlHTQ/croL1oA+4oG1RQvS1O+Vu9oMQbXg78YGq1o5d37Ft11HeGi1hvHVCHTqighqRBIRm+s6RzTDlVAiQ==
   dependencies:
     npm-registry-fetch "^13.0.0"
 
 libnpmteam@*:
-  version "4.0.0"
-  resolved "https://registry.npmmirror.com/libnpmteam/-/libnpmteam-4.0.0.tgz#821127ff0540a3163f907a697fe7a2ad71bfb573"
-  integrity sha512-Lt6oGyMzMXUdSmJJdpC2qCthoqe/r8mqDVXncv4Dn4KdxMWoA39aoQF23xq1wJ3fbfSnqbZUAJ2xDzNkxTLRzg==
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/libnpmteam/-/libnpmteam-4.0.1.tgz#0fb53142ffe4e84bcba94acb4a78867333925592"
+  integrity sha512-zM4dCkfHaLWGv5WL2p4XlzIr0GuwXEnu4DOH1dlvuwyH0J95y0wzjEXrlXrlfKrzNtTmuCCqzOs4SqC/kgA7Qg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
 
 libnpmversion@*:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/libnpmversion/-/libnpmversion-3.0.0.tgz#a925b65c323262ae6170ab34825f2ccad58b624b"
-  integrity sha512-EEFbCY15kn8ij8vB1KdfhR4F8IR3YZtiuN7eQ4SrXYaUo/vY/OjJjv2Hkpk/iB77rlK1tTx1t9jaeLQOLpJRIw==
+  version "3.0.1"
+  resolved "https://registry.npmmirror.com/libnpmversion/-/libnpmversion-3.0.1.tgz#378ef2b092a4a633772b1e66620ce3c431dc3697"
+  integrity sha512-ZxOVWmMX+RBkOeJSiNPdhMqRaAOJXf3EDfvC6Mr90+NaM+gKptiw/NJBT3jKfZKbLn/wuC0Ey/sc4YNLoBk0Qw==
   dependencies:
     "@npmcli/git" "^3.0.0"
     "@npmcli/run-script" "^3.0.0"
@@ -3645,9 +3645,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.3.1, lru-cache@^7.4.1:
-  version "7.4.1"
-  resolved "https://registry.npmmirror.com/lru-cache/-/lru-cache-7.4.1.tgz#afe07e885ef0cd5bf99f62f4fa7545d48746d779"
-  integrity sha512-NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==
+  version "7.4.2"
+  resolved "https://registry.npmmirror.com/lru-cache/-/lru-cache-7.4.2.tgz#92f7b5afe82759f51b216a96fae3bc1828df9712"
+  integrity sha512-Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==
 
 make-dir@^1.0.0:
   version "1.3.0"
