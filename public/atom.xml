@@ -6,7 +6,7 @@
   <link href="http://www.inzamz.top/atom.xml" rel="self"/>
   
   <link href="http://www.inzamz.top/"/>
-  <updated>2021-11-25T06:12:59.000Z</updated>
+  <updated>2022-03-12T13:11:20.000Z</updated>
   <id>http://www.inzamz.top/</id>
   
   <author>
@@ -15,6 +15,89 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Educational Codeforces Round 118</title>
+    <link href="http://www.inzamz.top/2022/XCPC/Codeforces/CF1651-Edu124/"/>
+    <id>http://www.inzamz.top/2022/XCPC/Codeforces/CF1651-Edu124/</id>
+    <published>2022-03-12T12:33:43.000Z</published>
+    <updated>2022-03-12T13:11:20.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有点可惜D题不敢写BFS , 思路是有的 , 但事实上我写出D题确实花了不少时间 , 比赛还不一定写的出来 . &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+    
+    
+    <category term="BFS" scheme="http://www.inzamz.top/tags/BFS/"/>
+    
+    <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Educational Codeforces Round 118</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Codeforces/CF1613-Edu118/</id>
+    <published>2021-12-05T14:27:53.000Z</published>
+    <updated>2021-12-06T07:47:59.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;二分的时候边界没有处理好，犹豫了一段时间，其他并没有什么问题。最后的D题少考虑了一种情况，但是当时时间不够也确实没考虑到也就认了。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Deltix Round, Autumn 2021</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Codeforces/CF1609-DR-Aut2021/</id>
+    <published>2021-11-30T08:50:54.000Z</published>
+    <updated>2021-11-30T08:50:54.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;打完蓝桥杯校赛，这阶段的各种忙也是告一段落了。于是当晚抽空打了这场比赛，还行吧，就是写代码生疏了点，速度有点慢。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Baekho__Railgun-PUPIL%201294-008000.svg?style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/Baekho_Railgun&quot; alt=&quot;OldRating&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/badge/Baekho__Railgun-PUPIL%201399-008000.svg?style=for-the-badge&amp;logo=Codeforces&amp;link=https://codeforces.com/profile/Baekho_Railgun&quot; alt=&quot;NewRating&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ecs.inzamz.top/cfrating.php?user=Baekho_Railgun&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Codeforces" scheme="http://www.inzamz.top/categories/XCPC/Codeforces/"/>
+    
+    
+    <category term="并查集" scheme="http://www.inzamz.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+    <category term="字符串" scheme="http://www.inzamz.top/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="暴力" scheme="http://www.inzamz.top/tags/%E6%9A%B4%E5%8A%9B/"/>
+    
+  </entry>
   
   <entry>
     <title>Cisco 网络简介课程笔记</title>
@@ -192,6 +275,212 @@
   </entry>
   
   <entry>
+    <title>2021 UESTC ICPC Training for Data Structures</title>
+    <link href="http://www.inzamz.top/2021/XCPC/UPST2021DS/"/>
+    <id>http://www.inzamz.top/2021/XCPC/UPST2021DS/</id>
+    <published>2021-05-11T06:50:01.000Z</published>
+    <updated>2021-05-21T02:59:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;板子题并没有给出详细的讲解 , 讲了大致思路 , 以及对于某些细节上的处理 . 代码也是把板子部分去了 , 留下需要改的部分 . &lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="其他比赛" scheme="http://www.inzamz.top/categories/XCPC/%E5%85%B6%E4%BB%96%E6%AF%94%E8%B5%9B/"/>
+    
+    
+    <category term="线段树" scheme="http://www.inzamz.top/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+    <category term="主席树" scheme="http://www.inzamz.top/tags/%E4%B8%BB%E5%B8%AD%E6%A0%91/"/>
+    
+    <category term="链表" scheme="http://www.inzamz.top/tags/%E9%93%BE%E8%A1%A8/"/>
+    
+    <category term="单调栈/队列" scheme="http://www.inzamz.top/tags/%E5%8D%95%E8%B0%83%E6%A0%88-%E9%98%9F%E5%88%97/"/>
+    
+    <category term="并查集" scheme="http://www.inzamz.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    <category term="ST表" scheme="http://www.inzamz.top/tags/ST%E8%A1%A8/"/>
+    
+    <category term="树状数组" scheme="http://www.inzamz.top/tags/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
+    
+    <category term="树链剖分" scheme="http://www.inzamz.top/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    
+    <category term="二叉平衡树" scheme="http://www.inzamz.top/tags/%E4%BA%8C%E5%8F%89%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+    <category term="莫队算法" scheme="http://www.inzamz.top/tags/%E8%8E%AB%E9%98%9F%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="二分答案" scheme="http://www.inzamz.top/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/"/>
+    
+    <category term="K-D树" scheme="http://www.inzamz.top/tags/K-D%E6%A0%91/"/>
+    
+    <category term="扫描线" scheme="http://www.inzamz.top/tags/%E6%89%AB%E6%8F%8F%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder Regular Contest 116</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Atcoder/ARC116/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Atcoder/ARC116/</id>
+    <published>2021-03-29T04:56:48.000Z</published>
+    <updated>2021-03-29T04:56:48.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最终狠下心来放弃 Codeforces , 转而开始打 Atcoder . 这个时间太香了 , 每周两场 , 不定期有 AGC . 勉强写了一下 , 写了一道 , 剩下一道想不到优化 , 归根结底数学太菜 .&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+    
+    
+    <category term="数学" scheme="http://www.inzamz.top/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Atcoder Education DP Contest</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Atcoder/EducationDPContest/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Atcoder/EducationDPContest/</id>
+    <published>2021-03-24T02:44:51.000Z</published>
+    <updated>2021-04-28T13:44:51.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Atcoder上面的 DP 练习题 , 主要是能看到别人的代码 .&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+    
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UESTC PreSummer Training</title>
+    <link href="http://www.inzamz.top/2021/XCPC/StudyNotes/DataStructure/"/>
+    <id>http://www.inzamz.top/2021/XCPC/StudyNotes/DataStructure/</id>
+    <published>2021-03-21T14:29:15.000Z</published>
+    <updated>2021-03-22T15:22:25.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这是去年的数据结构专题，拿来练练。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数据结构" scheme="http://www.inzamz.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动态规划合集</title>
+    <link href="http://www.inzamz.top/2021/XCPC/StudyNotes/DynamicProgramming/"/>
+    <id>http://www.inzamz.top/2021/XCPC/StudyNotes/DynamicProgramming/</id>
+    <published>2021-03-20T02:14:30.000Z</published>
+    <updated>2021-04-27T15:07:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;在高中只学过简单的背包问题，会写简单的状态转移方程。就自以为差不多（实际上就是在逃避现实），而最近刷了 ABC190 后，写了一道状压DP，才发现是时候练一下了。选择题目很杂 , 有些是学校的题目 , 没有题面 . 毕竟也没有人会看的吧 . &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;UPST2020&lt;/code&gt; : UESTC PreSummer Training 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="学习笔记" scheme="http://www.inzamz.top/categories/XCPC/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KEYENCE Programming Contest 2021</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Atcoder/keyence2021/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Atcoder/keyence2021/</id>
+    <published>2021-01-29T08:01:04.000Z</published>
+    <updated>2021-01-30T08:13:39.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&quot;A-Two-Sequences-2&quot;&gt;&lt;a href=&quot;#A-Two-Sequences-2&quot; class=&quot;headerlink&quot; title=&quot;A - Two Sequences 2&quot;&gt;&lt;/a&gt;A</summary>
+        
+      
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+    
+    
+    <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+    <category term="动态规划" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder Beginner Contest 188</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Atcoder/ABC188/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Atcoder/ABC188/</id>
+    <published>2021-01-25T07:36:30.000Z</published>
+    <updated>2021-01-27T14:30:26.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;ABC题都是很直接的题目，直接读题翻译暴力解决。&lt;/p&gt;
+&lt;p&gt;D题开始有点难度，但是思路清晰，抓住分割成若干不重叠的线段，就可以很快求解，运差查分。&lt;/p&gt;
+&lt;p&gt;E题就是一道简单的 DP 题目。&lt;/p&gt;
+&lt;p&gt;F题我是用 BFS 求解，但是剪枝没想到，最后看了大佬的剪枝才改好的。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
+    
+    
+    <category term="队列" scheme="http://www.inzamz.top/tags/%E9%98%9F%E5%88%97/"/>
+    
+    <category term="珂朵莉树" scheme="http://www.inzamz.top/tags/%E7%8F%82%E6%9C%B5%E8%8E%89%E6%A0%91/"/>
+    
+    <category term="map" scheme="http://www.inzamz.top/tags/map/"/>
+    
+    <category term="差分" scheme="http://www.inzamz.top/tags/%E5%B7%AE%E5%88%86/"/>
+    
+    <category term="BFS" scheme="http://www.inzamz.top/tags/BFS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于UESTC的各种考试的备考建议</title>
     <link href="http://www.inzamz.top/2021/Life/UESTCaboutexam/"/>
     <id>http://www.inzamz.top/2021/Life/UESTCaboutexam/</id>
@@ -211,108 +500,29 @@
   </entry>
   
   <entry>
-    <title>关于我去看病的感想以及想吐槽校医院的这档事</title>
-    <link href="http://www.inzamz.top/2021/Life/daily210105/"/>
-    <id>http://www.inzamz.top/2021/Life/daily210105/</id>
-    <published>2021-01-05T09:27:05.000Z</published>
-    <updated>2021-01-21T01:41:43.000Z</updated>
+    <title>AtCoder Beginner Contest 189</title>
+    <link href="http://www.inzamz.top/2021/XCPC/Atcoder/ABC189/"/>
+    <id>http://www.inzamz.top/2021/XCPC/Atcoder/ABC189/</id>
+    <published>2021-01-24T03:34:44.000Z</published>
+    <updated>2021-01-25T08:06:59.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;个人觉得我有社交恐惧症，在陌生环境下更是如此。&lt;/p&gt;
-&lt;p&gt;我从小就不怎么去医院，我们那这种小地方的医院，emm。而且地方小，小时候生病都直接找到医生家里的。高中的一次大伤也是直接老师家长包办了，毕竟我照顾自己都来不及……&lt;/p&gt;
-&lt;p&gt;所以分别先去了校医院和成都市二医院。&lt;/p&gt;
-&lt;p&gt;这个也是暂时挖坑，没办法，期末到了我才开始预习。&lt;/p&gt;
-&lt;p&gt;考试结束了，我来填坑了。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;其实有时间打的，不过我懒，所以赛后打的。&lt;br&gt;        ABC的难度就是前几题暴力，后面还是挺有挑战性的，下次有机会一定打。而且时间太舒服了，晚上8点。&lt;/p&gt;</summary>
     
     
     
-    <category term="关于我有个三次元分身这档事" scheme="http://www.inzamz.top/categories/%E5%85%B3%E4%BA%8E%E6%88%91%E6%9C%89%E4%B8%AA%E4%B8%89%E6%AC%A1%E5%85%83%E5%88%86%E8%BA%AB%E8%BF%99%E6%A1%A3%E4%BA%8B/"/>
+    <category term="XCPC" scheme="http://www.inzamz.top/categories/XCPC/"/>
+    
+    <category term="Atcoder" scheme="http://www.inzamz.top/categories/XCPC/Atcoder/"/>
     
     
-    <category term="个人经历" scheme="http://www.inzamz.top/tags/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/"/>
+    <category term="ST表" scheme="http://www.inzamz.top/tags/ST%E8%A1%A8/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Goodbye2020</title>
-    <link href="http://www.inzamz.top/2021/Life/Goodbye2020/"/>
-    <id>http://www.inzamz.top/2021/Life/Goodbye2020/</id>
-    <published>2020-12-31T17:12:57.000Z</published>
-    <updated>2020-12-31T17:12:57.000Z</updated>
+    <category term="贪心" scheme="http://www.inzamz.top/tags/%E8%B4%AA%E5%BF%83/"/>
     
+    <category term="动态规划DP" scheme="http://www.inzamz.top/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92DP/"/>
     
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;至于真相，一定更在意料之外——自古皆然。  阿瑟·克拉克 《太空漫游：2001》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这一年确实经历了很多，感慨万千。就像上面这句话，然后先挖个坑，会填的。&lt;/p&gt;
-&lt;p&gt;毕竟作为中国人，真正的过年就是除夕夜嘛。所以总结放在除夕夜了。而且我有一个大胆的想法，今年试试守岁？&lt;del&gt;感觉可以。&lt;/del&gt; 因为不可抗力的因素，我怕守个岁这个年估计就要躺在床上了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://img.inzamz.top/expression/stop-abusing.jpg&quot; alt=&quot;stop-abusing&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="关于我有个三次元分身这档事" scheme="http://www.inzamz.top/categories/%E5%85%B3%E4%BA%8E%E6%88%91%E6%9C%89%E4%B8%AA%E4%B8%89%E6%AC%A1%E5%85%83%E5%88%86%E8%BA%AB%E8%BF%99%E6%A1%A3%E4%BA%8B/"/>
-    
-    
-    <category term="2020" scheme="http://www.inzamz.top/tags/2020/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BaiduUrls</title>
-    <link href="http://www.inzamz.top/2020/AboutBlog/BaiduUrls/"/>
-    <id>http://www.inzamz.top/2020/AboutBlog/BaiduUrls/</id>
-    <published>2020-12-23T15:07:51.000Z</published>
-    <updated>2021-10-23T09:47:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;基于 hexo 的博客比较麻烦 , 百度无法自动收录 , 所以需要自己操作 . 记录一下到时方便查阅 , 参考自博文 &lt;a href=&quot;https://blog.csdn.net/weixin_43662543/article/details/104647173&quot;&gt;https://blog.csdn.net/weixin_43662543/article/details/104647173&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客相关" scheme="http://www.inzamz.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客" scheme="http://www.inzamz.top/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自定义域名邮箱</title>
-    <link href="http://www.inzamz.top/2020/Tools/Exmail/"/>
-    <id>http://www.inzamz.top/2020/Tools/Exmail/</id>
-    <published>2020-12-13T13:01:21.000Z</published>
-    <updated>2020-12-13T13:01:21.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;以前用的最多的就是qq邮箱了 , 但是毕竟不是很正式 &lt;del&gt;没有逼格&lt;/del&gt; , 正好因为搭建博客购买了一个域名 , 就干脆申请一个 . 就写一点自己遇到的问题吧.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="各种好用的工具" scheme="http://www.inzamz.top/categories/%E5%90%84%E7%A7%8D%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="域名邮箱" scheme="http://www.inzamz.top/tags/%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1/"/>
-    
-    <category term="Github Pages" scheme="http://www.inzamz.top/tags/Github-Pages/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Graphviz 的使用</title>
-    <link href="http://www.inzamz.top/2020/Tools/Graphviz/"/>
-    <id>http://www.inzamz.top/2020/Tools/Graphviz/</id>
-    <published>2020-11-02T14:50:29.000Z</published>
-    <updated>2021-10-23T10:01:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这是一款不同于其他框图软件的绘图工具, 他能把你想的东西画成图像,支持多种图像格式. 功能强大, 但对第一次使用并不友好. 于是写一下, 方便自己查找.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="各种好用的工具" scheme="http://www.inzamz.top/categories/%E5%90%84%E7%A7%8D%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="绘图" scheme="http://www.inzamz.top/tags/%E7%BB%98%E5%9B%BE/"/>
+    <category term="矩阵" scheme="http://www.inzamz.top/tags/%E7%9F%A9%E9%98%B5/"/>
     
   </entry>
   
