@@ -34,7 +34,6 @@
     "hexo-theme-yun": "^1.8.10",
     "hexo-wordcount": "^6.0.1",
     "install": "^0.13.0",
-    "npm": "^8.5.3",
-    "sudo": "^1.0.3"
+    "npm": "^8.5.3"
   }
 }
