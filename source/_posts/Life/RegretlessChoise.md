@@ -2,6 +2,7 @@
 title: 无悔的抉择
 categories:
   - Life
+  - 碎碎念
 tags:
   - 2022
 date: 2022-04-21 18:50:05
