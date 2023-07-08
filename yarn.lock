@@ -3127,11 +3127,6 @@ init-package-json@^3.0.0:
     validate-npm-package-license "^3.0.4"
     validate-npm-package-name "^4.0.0"
 
-inpath@~1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/inpath/-/inpath-1.0.2.tgz#4ac219710ec7a72f460ff94bf424dd3ef0e52817"
-  integrity sha512-DTt55ovuYFC62a8oJxRjV2MmTPUdxN43Gd8I2ZgawxbAha6PvJkDQy/RbZGFCJF5IXrpp4PAYtW1w3aV7jXkew==
-
 inquirer@3.0.6:
   version "3.0.6"
   resolved "https://registry.npmmirror.com/inquirer/-/inquirer-3.0.6.tgz#e04aaa9d05b7a3cb9b0f407d04375f0447190347"
@@ -5318,11 +5313,6 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   resolved "https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-pidof@~1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/pidof/-/pidof-1.0.2.tgz#fba0eae1c8335a11eb8099f5d0f3efbc45cb4e90"
-  integrity sha512-LLJhTVEUCZnotdAM5rd7KiTdLGgk6i763/hsd5pO+8yuF7mdgg0ob8w/98KrTAcPsj6YzGrkFLPVtBOr1uW2ag==
-
 pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
@@ -5693,7 +5683,7 @@ read-package-json@^5.0.0:
     normalize-package-data "^4.0.0"
     npm-normalize-package-bin "^2.0.0"
 
-read@1, read@^1.0.7, read@~1.0.3, read@~1.0.7:
+read@1, read@^1.0.7, read@~1.0.7:
   version "1.0.7"
   resolved "https://registry.npmmirror.com/read/-/read-1.0.7.tgz#b3da19bd052431a97671d44a42634adf710b40c4"
   integrity sha512-rSOKNYUmaxy0om1BNjMN4ezNT6VKK+2xF4GBhc81mkH7L60i6dp8qPYrkndNLT3QPphoII3maL9PVC9XmhHwVQ==
@@ -6432,15 +6422,6 @@ stylus@^0.54.8:
     sax "~1.2.4"
     semver "^6.3.0"
     source-map "^0.7.3"
-
-sudo@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmmirror.com/sudo/-/sudo-1.0.3.tgz#ccf28669120f8b74f82b846dff7f1c95120eff20"
-  integrity sha512-3xMsaPg+8Xm+4LQm0b2V+G3lz3YxtDBzlqiU8CXw2AOIIDSvC1kBxIxBjnoCTq8dTTXAy23m58g6mdClUocpmQ==
-  dependencies:
-    inpath "~1.0.2"
-    pidof "~1.0.2"
-    read "~1.0.3"
 
 supports-color@^2.0.0:
   version "2.0.0"
