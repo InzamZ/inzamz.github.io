@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>InzamZ的小破站</title>
+  <icon>http://www.inzamz.top/icon.png</icon>
+  <subtitle>胆大飘洋过海,胆小寸步难行</subtitle>
+  <link href="http://www.inzamz.top/atom.xml" rel="self"/>
+  
+  <link href="http://www.inzamz.top/"/>
+  <updated>2021-10-23T09:47:00.000Z</updated>
+  <id>http://www.inzamz.top/</id>
+  
+  <author>
+    <name>Inzam</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DB 设计简介</title>
+    <link href="http://www.inzamz.top/2023/Database/Introduce/"/>
+    <id>http://www.inzamz.top/2023/Database/Introduce/</id>
+    <published>2023-07-09T14:47:51.000Z</published>
+    <updated>2021-10-23T09:47:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文主要是总结最近学习数据库过程中的一些心得，以及一些数据库的设计思想。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="数据库" scheme="http://www.inzamz.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="leveldb - rocksdb" scheme="http://www.inzamz.top/tags/leveldb-rocksdb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的新冠日记</title>
+    <link href="http://www.inzamz.top/2022/Life/COVID19/"/>
+    <id>http://www.inzamz.top/2022/Life/COVID19/</id>
+    <published>2022-12-22T16:00:00.000Z</published>
+    <updated>2022-12-23T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;新冠疫情因为某些原因放开了，伴随着整个成都的沦陷，我算是比较早一批感染到新冠病毒的。因此我一直很想记录一下病毒感染到康复的日常，于是写下了这篇文章。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Life" scheme="http://www.inzamz.top/categories/Life/"/>
+    
+    <category term="新冠日记" scheme="http://www.inzamz.top/categories/Life/%E6%96%B0%E5%86%A0%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日常" scheme="http://www.inzamz.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无悔的抉择</title>
+    <link href="http://www.inzamz.top/2022/Life/RegretlessChoise/"/>
+    <id>http://www.inzamz.top/2022/Life/RegretlessChoise/</id>
+    <published>2022-04-21T10:50:05.000Z</published>
+    <updated>2022-04-22T12:29:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;标题的来源是进击的巨人,利维兵长对艾伦说的话,”选择吧,是相信自己的力量,还是相信我们这些同伴的力量.我也不知道哪一个是对的,那么就选择一个你不会后悔的决定吧”.&lt;br&gt;因为实验室的薪酬问题 , 师兄们都在谋划着自己今后的去向 , 所以我也在思考着我的选择 . 由此便想起了自己到现在为止的那些重大选择 .&lt;br&gt;而一个月前就盘算的文章 , 一直鸽到现在 , 快速赶完的原因也是因为妹妹临近高考 , 感觉不应该只是分享所谓的学习方法 , 可以在心态上给她一些帮助 . &lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Life" scheme="http://www.inzamz.top/categories/Life/"/>
+    
+    <category term="碎碎念" scheme="http://www.inzamz.top/categories/Life/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="2022" scheme="http://www.inzamz.top/tags/2022/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>systemctl服务</title>
+    <link href="http://www.inzamz.top/2021/System/Systemctl/"/>
+    <id>http://www.inzamz.top/2021/System/Systemctl/</id>
+    <published>2021-11-07T13:30:24.000Z</published>
+    <updated>2021-11-07T13:30:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Linux系统" scheme="http://www.inzamz.top/categories/Linux%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="systemctl" scheme="http://www.inzamz.top/tags/systemctl/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Beyond！超越生死的对话</title>
+    <link href="http://www.inzamz.top/2021/View/Beyond/"/>
+    <id>http://www.inzamz.top/2021/View/Beyond/</id>
+    <published>2021-10-30T13:51:53.000Z</published>
+    <updated>2021-11-19T05:47:53.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;王勃满腹经纶，写下滕王阁序，却在途中离世；家驹写下了海阔天空，却匆匆离世，我只能轻叹天妒英才。&lt;br&gt;1996年3月6日的香港红磡，最后那一首海阔天空，四个人，都在诉说着自己矢志不渝的信念。&lt;/p&gt;
+&lt;p&gt;近来听到一首歌，感慨颇多。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="View" scheme="http://www.inzamz.top/categories/View/"/>
+    
+    
+    <category term="乐评" scheme="http://www.inzamz.top/tags/%E4%B9%90%E8%AF%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进击的巨人</title>
+    <link href="http://www.inzamz.top/2021/View/ShingekinoKyoji/"/>
+    <id>http://www.inzamz.top/2021/View/ShingekinoKyoji/</id>
+    <published>2021-07-04T07:55:47.000Z</published>
+    <updated>2021-10-27T11:00:47.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这一篇不可能缺席的 . 巨人是多少人的青春 , 对于他的结局 , 总的来说是烂的 , 但至少是圆满的 . 对于我 , 很晚入宅 , 但是不可否定的是我也为了他疯过 . 我看了很多结局的解读 , 找了自己能接受的 , 但当作者需要其他人解读时 , 作品已经算失败了……&lt;/p&gt;
+&lt;p&gt;在最后 , 我还是抱着一丝丝希望 , MAPPA能最后把结局改了 , 还给我们一个完美的青春 . &lt;/p&gt;
+&lt;p&gt;Upadted：转眼间第四季PART2 已经定档了，仔细想想，巨人被众多人诟病，归根结底就是大家对它的期望太高了。如果你要把它捧作二次元天花板，硬是扯到出圈，这个结尾太糟糕了。但是如果仅仅当作一部普通的二次元动漫，它依旧是不可轻易超越的神作。这也就是二次元文化始终是小众文化的原因。不可否认，二次元文化中有着许多与主流文化相悖的东西，所以终究不能做大，只当作消遣罢。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="View" scheme="http://www.inzamz.top/categories/View/"/>
+    
+    
+    <category term="漫评" scheme="http://www.inzamz.top/tags/%E6%BC%AB%E8%AF%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好，世界</title>
+    <link href="http://www.inzamz.top/2021/View/MovieHelloWorld/"/>
+    <id>http://www.inzamz.top/2021/View/MovieHelloWorld/</id>
+    <published>2021-06-26T15:51:53.000Z</published>
+    <updated>2021-06-27T15:51:53.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;男女主的感情表达得很好 , 世界观一般 , 剧情很可以 . 总体来说还是很可以的 . 按照我毒瘤的评分标准 , 7.5 分吧 . 和室友包场了 , 可悲的是 , 其他两对都是情侣 . &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="View" scheme="http://www.inzamz.top/categories/View/"/>
+    
+    
+    <category term="影评" scheme="http://www.inzamz.top/tags/%E5%BD%B1%E8%AF%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于UESTC的各种考试的备考建议</title>
+    <link href="http://www.inzamz.top/2021/Life/UESTCaboutexam/"/>
+    <id>http://www.inzamz.top/2021/Life/UESTCaboutexam/</id>
+    <published>2021-01-24T08:39:25.000Z</published>
+    <updated>2021-01-24T09:08:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因为自己一直苦于水课以及其他的正课的复习，师兄的建议也只是停留在印象（毕竟时间太久都忘了），于是我打算考完后把感想写下来，造福后代？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Life" scheme="http://www.inzamz.top/categories/Life/"/>
+    
+    <category term="UESTC" scheme="http://www.inzamz.top/categories/Life/UESTC/"/>
+    
+    
+    <category term="考试" scheme="http://www.inzamz.top/tags/%E8%80%83%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Goodbye2020</title>
+    <link href="http://www.inzamz.top/2020/Life/Goodbye2020/"/>
+    <id>http://www.inzamz.top/2020/Life/Goodbye2020/</id>
+    <published>2020-12-31T17:12:57.000Z</published>
+    <updated>2020-12-31T17:12:57.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;至于真相，一定更在意料之外——自古皆然。  阿瑟·克拉克 《太空漫游：2001》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这一年确实经历了很多，感慨万千。就像上面这句话，然后先挖个坑，会填的。&lt;/p&gt;
+&lt;p&gt;毕竟作为中国人，真正的过年就是除夕夜嘛。所以总结放在除夕夜了。而且我有一个大胆的想法，今年试试守岁？&lt;del&gt;感觉可以。&lt;/del&gt; 因为不可抗力的因素，我怕守个岁这个年估计就要躺在床上了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://img.inzamz.top/expression/stop-abusing.jpg&quot; alt=&quot;stop-abusing&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Life" scheme="http://www.inzamz.top/categories/Life/"/>
+    
+    <category term="碎碎念" scheme="http://www.inzamz.top/categories/Life/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="2020" scheme="http://www.inzamz.top/tags/2020/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BaiduUrls</title>
+    <link href="http://www.inzamz.top/2020/AboutBlog/BaiduUrls/"/>
+    <id>http://www.inzamz.top/2020/AboutBlog/BaiduUrls/</id>
+    <published>2020-12-23T15:07:51.000Z</published>
+    <updated>2021-10-23T09:47:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;基于 hexo 的博客比较麻烦 , 百度无法自动收录 , 所以需要自己操作 . 记录一下到时方便查阅 , 参考自博文 &lt;a href=&quot;https://blog.csdn.net/weixin_43662543/article/details/104647173&quot;&gt;https://blog.csdn.net/weixin_43662543/article/details/104647173&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客相关" scheme="http://www.inzamz.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="博客" scheme="http://www.inzamz.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
