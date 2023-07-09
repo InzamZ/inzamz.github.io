@@ -1,5 +1,5 @@
 ---
-title: DB 设计总结
+title: DB 设计简介
 date: 2023-07-09 22:47:51
 tags:
 	- leveldb
