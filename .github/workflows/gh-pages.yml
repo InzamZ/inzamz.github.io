@@ -5,6 +5,7 @@ on:
     branches:
       # The branch where the project source code resides
       # 项目源代码所在的分支
+      - hexo2valaxy
       - valaxy
 
 jobs:
