@@ -1,5 +1,6 @@
 ---
 title: Goodbye2020
+hide: true
 date: 2021-01-01 01:12:57
 updated: 2021-01-01 01:12:57
 tags:

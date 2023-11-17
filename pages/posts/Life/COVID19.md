@@ -1,5 +1,6 @@
 ---
 title: "我的新冠日记"
+hide: true
 categories:
     - Life
     - 新冠日记

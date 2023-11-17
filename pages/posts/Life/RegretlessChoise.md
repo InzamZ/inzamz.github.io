@@ -1,5 +1,6 @@
 ---
 title: 无悔的抉择
+hide: true
 categories:
     - Life
     - 碎碎念
