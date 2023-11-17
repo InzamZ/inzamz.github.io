@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>InzamZ的小破站</title>
+        <link>https://www.inzamz.top/</link>
+        <description>一个自言自语的地方</description>
+        <lastBuildDate>Fri, 17 Nov 2023 10:09:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>InzamZ的小破站</title>
+            <url>https://www.inzamz.top/images/avatar.jpg</url>
+            <link>https://www.inzamz.top/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © InzamZ</copyright>
+        <atom:link href="https://www.inzamz.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[基于 webhook 的 tgbot]]></title>
+            <link>https://www.inzamz.top/posts/ChatBot/telegramBotBasedWebhook</link>
+            <guid>https://www.inzamz.top/posts/ChatBot/telegramBotBasedWebhook</guid>
+            <pubDate>Fri, 17 Nov 2023 17:28:39 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在今年早些时候我就有打算使用 webhook 对机器人进行优化，当时也打算使用 serverless 进行优化，但是当时可能由于代码或者环境的问题，延迟无法接受。鉴于毕设打算使用 serverless，打算用这个项目练练手。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (InzamZ)</author>
+        </item>
+        <item>
+            <title><![CDATA[DB 设计简介]]></title>
+            <link>https://www.inzamz.top/posts/Database/Introduce</link>
+            <guid>https://www.inzamz.top/posts/Database/Introduce</guid>
+            <pubDate>Sun, 09 Jul 2023 23:57:01 GMT</pubDate>
+            <content:encoded><![CDATA[<p>本文主要是总结最近学习数据库过程中的一些心得，以及一些数据库的设计思想。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (InzamZ)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于UESTC的各种考试的备考建议]]></title>
+            <link>https://www.inzamz.top/posts/Life/UESTCaboutexam</link>
+            <guid>https://www.inzamz.top/posts/Life/UESTCaboutexam</guid>
+            <pubDate>Sun, 24 Jan 2021 17:08:32 GMT</pubDate>
+            <content:encoded><![CDATA[<p>因为自己一直苦于水课以及其他的正课的复习，师兄的建议也只是停留在印象（毕竟时间太久都忘了），于是我打算考完后把感想写下来，造福后代？</p>
+]]></content:encoded>
+            <author>i@valaxy.site (InzamZ)</author>
+        </item>
+    </channel>
+</rss>

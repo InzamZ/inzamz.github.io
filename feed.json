@@ -1,0 +1,50 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "InzamZ的小破站",
+    "home_page_url": "https://www.inzamz.top/",
+    "feed_url": "https://www.inzamz.top/feed.json",
+    "description": "一个自言自语的地方",
+    "icon": "https://www.inzamz.top/images/avatar.jpg",
+    "author": {
+        "name": "InzamZ",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>在今年早些时候我就有打算使用 webhook 对机器人进行优化，当时也打算使用 serverless 进行优化，但是当时可能由于代码或者环境的问题，延迟无法接受。鉴于毕设打算使用 serverless，打算用这个项目练练手。</p>\n",
+            "url": "https://www.inzamz.top/posts/ChatBot/telegramBotBasedWebhook",
+            "title": "基于 webhook 的 tgbot",
+            "date_modified": "2023-11-17T14:18:56.000Z",
+            "date_published": "2023-11-17T17:28:39.000Z",
+            "author": {
+                "name": "InzamZ",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>本文主要是总结最近学习数据库过程中的一些心得，以及一些数据库的设计思想。</p>\n",
+            "url": "https://www.inzamz.top/posts/Database/Introduce",
+            "title": "DB 设计简介",
+            "date_modified": "2023-07-09T22:47:51.000Z",
+            "date_published": "2023-07-09T23:57:01.000Z",
+            "author": {
+                "name": "InzamZ",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>因为自己一直苦于水课以及其他的正课的复习，师兄的建议也只是停留在印象（毕竟时间太久都忘了），于是我打算考完后把感想写下来，造福后代？</p>\n",
+            "url": "https://www.inzamz.top/posts/Life/UESTCaboutexam",
+            "title": "关于UESTC的各种考试的备考建议",
+            "date_modified": "2021-01-24T16:39:25.000Z",
+            "date_published": "2021-01-24T17:08:32.000Z",
+            "author": {
+                "name": "InzamZ",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
